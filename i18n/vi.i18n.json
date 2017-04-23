@@ -51,6 +51,25 @@
         "4": "N2",
         "5": "N1"
       }
+    },
+    "Ocupation": {
+      "label": "Nghề Nghiệp",
+      "0": "Giúp việc nhà",
+      "1": "Nhân viên nhà hàng",
+      "2": "Nhân viên làm đẹp",
+      "3": "Nhân viên văn phòng",
+      "4": "Kế toán",
+      "5": "Sinh viên/học sinh",
+      "6": "Kinh doanh tự do"
+    },
+    "Siblings": "Anh em (người)",
+    "Father": {
+      "age": "Tuổi bố",
+      "ocupation": "Nghề nghiệp"
+    },
+    "Mother": {
+      "age": "Tuổi mẹ",
+      "ocupation": "Nghề nghiệp"
     }
   }
 }

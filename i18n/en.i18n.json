@@ -53,7 +53,23 @@
       }
     },
     "Ocupation": {
-      "label": "Ocupation"
+      "label": "Ocupation",
+      "0": "At home",
+      "1": "Waitress",
+      "2": "Beautician",
+      "3": "Office lady",
+      "4": "Accountant",
+      "5": "Student",
+      "6": "Self employee"
+    },
+    "Siblings": "Siblings (people)",
+    "Father": {
+      "age": "Father's age",
+      "ocupation": "Ocupation"
+    },
+    "Mother": {
+      "age": "Mother's age",
+      "ocupation": "Ocupation"
     }
   }
 }
