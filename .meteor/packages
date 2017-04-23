@@ -33,3 +33,8 @@ kadira:flow-router
 kadira:blaze-layout
 accounts-password
 accounts-ui
+aldeed:autoform
+aldeed:collection2-core
+useraccounts:materialize
+gwendall:autoform-i18n
+gwendall:simple-schema-i18n

@@ -7,5 +7,50 @@
   "Members": "Hội Viên",
   "Banner": "Tư vấn Hôn nhân Nhật Bản",
   "What is Vietnamese bridal consulting": "Tư vấn hôn nhân Việt Nam - Nhật Bản là gì",
-  "Service Overview": "Chúng tôi là dịch vụ tư vấn hôn nhân cho các bạn nữ, có nhu cầu muốn kết hôn với nam giới Nhật Bản. Nhật Bản nổi tiếng là một đất nước mà ở đó quyền lợi của phụ nữ luôn được đảm bảo. Nam giới Nhật Bản được dạy từ nhỏ là phải cư xử nhã nhặn với phụ nữ"
+  "Service Overview": "Chúng tôi là dịch vụ tư vấn hôn nhân cho các bạn nữ, có nhu cầu muốn kết hôn với nam giới Nhật Bản. Nhật Bản nổi tiếng là một đất nước mà ở đó quyền lợi của phụ nữ luôn được đảm bảo. Nam giới Nhật Bản được dạy từ nhỏ là phải cư xử nhã nhặn với phụ nữ",
+  "SiriusMemberSchema": {
+    "Name": "Họ tên",
+    "BirthDate": "Ngày sinh",
+    "Height": "Chiều cao (cm)",
+    "Weight": "Cân nặng (kg)",
+    "Academic": {
+      "label": "Học vấn",
+      "1": "Hết lớp 1",
+      "2": "Hết lớp 2",
+      "3": "Hết lớp 3",
+      "4": "Hết lớp 4",
+      "5": "Hết lớp 5",
+      "6": "Hết lớp 6",
+      "7": "Hết lớp 7",
+      "8": "Hết lớp 8",
+      "9": "Hết lớp 9",
+      "10": "Hết lớp 10",
+      "11": "Hết lớp 11",
+      "12": "Hết lớp 12",
+      "13": "Tốt nghiệp trung cấp",
+      "14": "Tốt nghiệp cao đẳng",
+      "15": "Tốt nghiệp đại học",
+      "16": "Tốt nghiệp thạc sĩ",
+      "17": "Tốt nghiệp tiến sĩ"
+    },
+    "Language": {
+      "label": "Ngoại ngữ",
+      "English": {
+        "label": "Tiếng Anh",
+        "0": "Không biết",
+        "1": "Sơ cấp",
+        "2": "Trung cấp",
+        "3": "Cao cấp"
+      },
+      "Japanese": {
+        "label": "Tiếng Nhật",
+        "0": "Không biết",
+        "1": "N5",
+        "2": "N4",
+        "3": "N3",
+        "4": "N2",
+        "5": "N1"
+      }
+    }
+  }
 }

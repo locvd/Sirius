@@ -7,5 +7,53 @@
   "Members": "Members",
   "Banner": "Vietnam - Japan Bridal Consulting",
   "What is Vietnamese bridal consulting": "What is Vietnamese bridal consulting",
-  "Service Overview": "国際結婚ベトナムはアジア女性を日本人男性にご紹介しています。東アジアは近年、目覚しい経済成長と発展をとげています。それはハノイ、ホーチミンの一部の都市だけで、都心から少し離れるとまだのどかな田園風景が見られます。<br>弊社がご紹介をする女性達もそんな都会に染まらない地方の素直な女性たちです。結婚希望の男性は国際結婚に一歩踏み出す勇気を出して下さい、前に出ないと始まりません、ぜひベトナムその他アジア女性の素直さや穏やかさを感じて頂きたいと思います。そして結婚に対する気持ちを諦めないで幸せになる努力と勇気を持って下さい。外国人女性と結婚を真面目にお考えの方に限ります。"
+  "Service Overview": "国際結婚ベトナムはアジア女性を日本人男性にご紹介しています。東アジアは近年、目覚しい経済成長と発展をとげています。それはハノイ、ホーチミンの一部の都市だけで、都心から少し離れるとまだのどかな田園風景が見られます。<br>弊社がご紹介をする女性達もそんな都会に染まらない地方の素直な女性たちです。結婚希望の男性は国際結婚に一歩踏み出す勇気を出して下さい、前に出ないと始まりません、ぜひベトナムその他アジア女性の素直さや穏やかさを感じて頂きたいと思います。そして結婚に対する気持ちを諦めないで幸せになる努力と勇気を持って下さい。外国人女性と結婚を真面目にお考えの方に限ります。",
+  "SiriusMemberSchema": {
+    "Name": "Full Name",
+    "BirthDate": "Date of Birth",
+    "Height": "Height (cm)",
+    "Weight": "Weight (kg)",
+    "Academic": {
+      "label": "Academic Background",
+      "1": "1st Grade",
+      "2": "2nd Grade",
+      "3": "3rd Grade",
+      "4": "4th Grade",
+      "5": "Elementary school graduate",
+      "6": "6th Grade",
+      "7": "7th Grade",
+      "8": "8th Grade",
+      "9": "Secondary school graduate",
+      "10": "10th Grade",
+      "11": "11st Grade",
+      "12": "High school graduate",
+      "13": "Vocational school",
+      "14": "Junior college",
+      "15": "Undergraduate",
+      "16": "Master graduate",
+      "17": "Doctor degree"
+    },
+    "Language": {
+      "label": "Language",
+      "English": {
+        "label": "English",
+        "0": "Beginner",
+        "1": "Elementary",
+        "2": "Intermediate",
+        "3": "Advance"
+      },
+      "Japanese": {
+        "label": "Japanese",
+        "0": "Beginner",
+        "1": "N5",
+        "2": "N4",
+        "3": "N3",
+        "4": "N2",
+        "5": "N1"
+      }
+    },
+    "Ocupation": {
+      "label": "Ocupation"
+    }
+  }
 }

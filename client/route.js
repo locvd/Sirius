@@ -9,3 +9,10 @@ FlowRouter.route('/', {
     })
   }
 });
+
+FlowRouter.route('/test', {
+  name: 'Test page',
+  action() {
+    BlazeLayout.render('Test');
+  }
+});
