@@ -60,14 +60,19 @@
       "3": "Office lady",
       "4": "Accountant",
       "5": "Student",
-      "6": "Self employee"
+      "6": "Self employee",
+      "7": "Worker",
+      "8": "Famer",
+      "9": "Retied"
     },
     "Siblings": "Siblings (people)",
     "Father": {
+      "label": "Father",
       "age": "Father's age",
       "ocupation": "Ocupation"
     },
     "Mother": {
+      "label": "Mother",
       "age": "Mother's age",
       "ocupation": "Ocupation"
     }

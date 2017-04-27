@@ -60,14 +60,19 @@
       "3": "Nhân viên văn phòng",
       "4": "Kế toán",
       "5": "Sinh viên/học sinh",
-      "6": "Kinh doanh tự do"
+      "6": "Kinh doanh tự do",
+      "7": "Công nhân",
+      "8": "Nông dân",
+      "9": "Đã nghỉ hưu"
     },
     "Siblings": "Anh em (người)",
     "Father": {
+      "label": "Bố",
       "age": "Tuổi bố",
       "ocupation": "Nghề nghiệp"
     },
     "Mother": {
+      "label": "Mẹ",
       "age": "Tuổi mẹ",
       "ocupation": "Nghề nghiệp"
     }
