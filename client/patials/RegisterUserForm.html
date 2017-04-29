@@ -1,0 +1,8 @@
+<template name="NewUserForm">
+    <div class="card-panel">
+        <h1>{{_ "AddMember.Add User"}}</h1>
+        <div class="row">
+            {{> quickForm collection="SiriusUsers" id="addUser" type="insert"}}
+        </div>
+    </div>
+</template>

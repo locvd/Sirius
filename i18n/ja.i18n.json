@@ -55,7 +55,8 @@
         "2": "再婚、子供なし",
         "3": "再婚、子供あり"
       },
-      "Address": "住所"
+      "Address": "住所",
+      "Salary": "年収（賞与込・税込）"
     },
     "Language": {
       "label": "外国語",
@@ -99,6 +100,7 @@
     }
   },
   "AddMember": {
-    "Add Member": "新会員追加"
+    "Add Member": "新会員追加",
+    "Register User": "ユーザー登録"
   }
 }

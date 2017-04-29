@@ -38,3 +38,6 @@ aldeed:collection2-core
 useraccounts:materialize
 gwendall:autoform-i18n
 gwendall:simple-schema-i18n
+mozfet:autoform-materialize
+accounts-facebook
+accounts-google
