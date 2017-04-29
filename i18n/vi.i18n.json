@@ -101,6 +101,9 @@
   },
   "AddMember": {
     "Add Member": "Thêm Thành Viên Mới",
-    "Register User": "Đăng ký người dùng"
+    "Register User": "Đăng ký người dùng",
+    "Username": "Tên đăng ký",
+    "Password": "Mật khẩu",
+    "ConfirmPassword": "Nhập lại mật khẩu"
   }
 }

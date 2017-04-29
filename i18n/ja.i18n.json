@@ -101,6 +101,9 @@
   },
   "AddMember": {
     "Add Member": "新会員追加",
-    "Register User": "ユーザー登録"
+    "Register User": "ユーザー登録",
+    "Username": "ユーザー名",
+    "Password": "パスワード",
+    "ConfirmPassword": "パスワード（再）"
   }
 }
