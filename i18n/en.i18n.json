@@ -56,7 +56,8 @@
         "1": "First marriage, have children",
         "2": "Marriage again, no children",
         "3": "Marriage again, have children"
-      }
+      },
+      "Address": "Address"
     },
     "Language": {
       "label": "Language",
