@@ -16,3 +16,10 @@ FlowRouter.route('/test', {
     BlazeLayout.render('Test');
   }
 });
+
+FlowRouter.route('/adduser', {
+  name: 'Test page',
+  action() {
+    BlazeLayout.render('AddMemberForm');
+  }
+});

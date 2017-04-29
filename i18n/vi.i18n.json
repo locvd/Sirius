@@ -9,29 +9,54 @@
   "What is Vietnamese bridal consulting": "Tư vấn hôn nhân Việt Nam - Nhật Bản là gì",
   "Service Overview": "Chúng tôi là dịch vụ tư vấn hôn nhân cho các bạn nữ, có nhu cầu muốn kết hôn với nam giới Nhật Bản. Nhật Bản nổi tiếng là một đất nước mà ở đó quyền lợi của phụ nữ luôn được đảm bảo. Nam giới Nhật Bản được dạy từ nhỏ là phải cư xử nhã nhặn với phụ nữ",
   "SiriusMemberSchema": {
-    "Name": "Họ tên",
-    "BirthDate": "Ngày sinh",
-    "Height": "Chiều cao (cm)",
-    "Weight": "Cân nặng (kg)",
-    "Academic": {
-      "label": "Học vấn",
-      "1": "Hết lớp 1",
-      "2": "Hết lớp 2",
-      "3": "Hết lớp 3",
-      "4": "Hết lớp 4",
-      "5": "Hết lớp 5",
-      "6": "Hết lớp 6",
-      "7": "Hết lớp 7",
-      "8": "Hết lớp 8",
-      "9": "Hết lớp 9",
-      "10": "Hết lớp 10",
-      "11": "Hết lớp 11",
-      "12": "Hết lớp 12",
-      "13": "Tốt nghiệp trung cấp",
-      "14": "Tốt nghiệp cao đẳng",
-      "15": "Tốt nghiệp đại học",
-      "16": "Tốt nghiệp thạc sĩ",
-      "17": "Tốt nghiệp tiến sĩ"
+    "basicInformation": {
+      "label": "Thông tin cơ bản",
+      "Name": "Họ tên",
+      "BirthDate": "Ngày sinh",
+      "Height": "Chiều cao (cm)",
+      "Weight": "Cân nặng (kg)",
+      "Academic": {
+        "label": "Học vấn",
+        "1": "Hết lớp 1",
+        "2": "Hết lớp 2",
+        "3": "Hết lớp 3",
+        "4": "Hết lớp 4",
+        "5": "Hết lớp 5",
+        "6": "Hết lớp 6",
+        "7": "Hết lớp 7",
+        "8": "Hết lớp 8",
+        "9": "Hết lớp 9",
+        "10": "Hết lớp 10",
+        "11": "Hết lớp 11",
+        "12": "Hết lớp 12",
+        "13": "Tốt nghiệp trung cấp",
+        "14": "Tốt nghiệp cao đẳng",
+        "15": "Tốt nghiệp đại học",
+        "16": "Tốt nghiệp thạc sĩ",
+        "17": "Tốt nghiệp tiến sĩ"
+      },
+      "Ocupation": {
+        "label": "Nghề Nghiệp",
+        "0": "Giúp việc nhà",
+        "1": "Nhân viên nhà hàng",
+        "2": "Nhân viên làm đẹp",
+        "3": "Nhân viên văn phòng",
+        "4": "Kế toán",
+        "5": "Sinh viên/học sinh",
+        "6": "Kinh doanh tự do",
+        "7": "Công nhân",
+        "8": "Nông dân",
+        "9": "Đã nghỉ hưu"
+      },
+      "Email": "Email",
+      "TEL": "Số điện thoại",
+      "Marriage": {
+        "label": "Lý lịch hôn nhân",
+        "0": "Kết hôn lần đầu, không có con",
+        "1": "Kết hôn lần đầu, có con",
+        "2": "Tái hôn, không có con",
+        "3": "Tái hôn, có con"
+      }
     },
     "Language": {
       "label": "Ngoại ngữ",
@@ -52,29 +77,27 @@
         "5": "N1"
       }
     },
-    "Ocupation": {
-      "label": "Nghề Nghiệp",
-      "0": "Giúp việc nhà",
-      "1": "Nhân viên nhà hàng",
-      "2": "Nhân viên làm đẹp",
-      "3": "Nhân viên văn phòng",
-      "4": "Kế toán",
-      "5": "Sinh viên/học sinh",
-      "6": "Kinh doanh tự do",
-      "7": "Công nhân",
-      "8": "Nông dân",
-      "9": "Đã nghỉ hưu"
+    "Family": {
+      "label": "Gia Đình",
+      "Siblings": "Anh em (người)",
+      "Father": {
+        "label": "Bố",
+        "age": "Tuổi bố",
+        "ocupation": "Nghề nghiệp"
+      },
+      "Mother": {
+        "label": "Mẹ",
+        "age": "Tuổi mẹ",
+        "ocupation": "Nghề nghiệp"
+      }
     },
-    "Siblings": "Anh em (người)",
-    "Father": {
-      "label": "Bố",
-      "age": "Tuổi bố",
-      "ocupation": "Nghề nghiệp"
-    },
-    "Mother": {
-      "label": "Mẹ",
-      "age": "Tuổi mẹ",
-      "ocupation": "Nghề nghiệp"
+    "Profile": {
+      "label": "Hồ sơ",
+      "publish": "Công khai",
+      "retire": "Bỏ đoàn"
     }
+  },
+  "AddMember": {
+    "Add Member": "Thêm Thành Viên Mới"
   }
 }
