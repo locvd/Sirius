@@ -27,7 +27,7 @@ FlowRouter.route('/newmember', {
 FlowRouter.route('/newuser', {
   name: 'New User',
   action() {
-    BlazeLayout.render('NewUserForm')
+    BlazeLayout.render('AddUserForm')
   }
 });
 
