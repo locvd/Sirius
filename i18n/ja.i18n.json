@@ -56,7 +56,9 @@
         "3": "再婚、子供あり"
       },
       "Address": "住所",
-      "Salary": "年収（賞与込・税込）"
+      "Salary": "年収（賞与込・税込）",
+      "Email": "メアド",
+      "TEL": "電話番号"
     },
     "Language": {
       "label": "外国語",
@@ -90,8 +92,7 @@
         "age": "母親の年齢",
         "ocupation": "母親の職業"
       },
-      "Email": "メアド",
-      "TEL": "電話番号"
+      "Self": "自分"
     },
     "Profile": {
       "label": "プロフィール",
@@ -104,6 +105,11 @@
     "Register User": "ユーザー登録",
     "Username": "ユーザー名",
     "Password": "パスワード",
-    "ConfirmPassword": "パスワード（再）"
+    "ConfirmPassword": "パスワード（再）",
+    "Insert": "挿入",
+    "Reset": "リセット"
+  },
+  "UserLogin": {
+    "Register": "登録"
   }
 }

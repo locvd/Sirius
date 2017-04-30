@@ -91,7 +91,8 @@
         "label": "Mẹ",
         "age": "Tuổi mẹ",
         "ocupation": "Nghề nghiệp"
-      }
+      },
+      "Self": "Bản thân"
     },
     "Profile": {
       "label": "Hồ sơ",
@@ -104,6 +105,11 @@
     "Register User": "Đăng ký người dùng",
     "Username": "Tên đăng ký",
     "Password": "Mật khẩu",
-    "ConfirmPassword": "Nhập lại mật khẩu"
+    "ConfirmPassword": "Nhập lại mật khẩu",
+    "Insert": "Thêm",
+    "Reset": "Soạn lại"
+  },
+  "UserLogin": {
+    "Register": "Đăng ký"
   }
 }

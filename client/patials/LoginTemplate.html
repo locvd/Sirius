@@ -1,0 +1,9 @@
+<template name="UserLogin">
+    {{#if atDisabled}}
+        Please wait...
+    {{/if}}
+    <div class="{{atClass}}">
+        {{> atForm}}
+    </div>
+    <!--{{> ensureSignedIn template="myTemplate" auth="myLoginForm"}}-->
+</template>

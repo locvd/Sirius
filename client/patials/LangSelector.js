@@ -22,5 +22,6 @@ Template.langSelector.events({
   'click #tx-live-lang-container ul li'(event, instance){
     jQuery('#tx-live-lang-toggle').html(event.toElement.innerHTML);
     TAPi18n.setLanguage(event.toElement.getAttribute('data-value'));
+    T9n.setLanguage(event.toElement.getAttribute('data-value'));
   }
 });

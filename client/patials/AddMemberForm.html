@@ -2,7 +2,61 @@
     <div class="card-panel">
         <h1>{{_ "AddMember.Add Member"}}</h1>
         <div class="row">
-            {{> quickForm collection="SiriusMembers" id="addMember" type="insert"}}
+            {{#autoForm collection="SiriusMembers" id="addMember2" type="insert"}}
+                <fieldset style="border: none">
+                    <legend class="header">{{afFieldLabelText name="basicInformation"}}</legend>
+                    {{#each afFieldNames name="basicInformation"}}
+                        <div class="col s12 m6 l6">
+                            {{> afFormGroup name=this.name}}
+                        </div>
+                    {{/each}}
+                </fieldset>
+                <fieldset style="border: none">
+                    <legend class="header">{{afFieldLabelText name="language"}}</legend>
+                    {{#each afFieldNames name="language"}}
+                        <div class="col s12 m6 l6">
+                            {{> afFormGroup name=this.name}}
+                        </div>
+                    {{/each}}
+                </fieldset>
+                <fieldset style="border: none">
+                    <legend>{{afFieldLabelText name="family"}}</legend>
+                    <fieldset style="border: none">
+                        <legend>{{afFieldLabelText name="family.father"}}</legend>
+                        {{#each afFieldNames name="family.father"}}
+                            <div class="col s12 m6 l6">
+                                {{> afFormGroup name=this.name}}
+                            </div>
+                        {{/each}}
+                    </fieldset>
+                    <fieldset style="border: none">
+                        <legend>{{afFieldLabelText name="family.mother"}}</legend>
+                        {{#each afFieldNames name="family.mother"}}
+                            <div class="col s12 m6 l6">
+                                {{> afFormGroup name=this.name}}
+                            </div>
+                        {{/each}}
+                    </fieldset>
+                    <div class="col s12 m6 l6">
+                        {{> afFormGroup name="family.siblings"}}
+                    </div>
+                    <div class="col s12 m6 l6">
+                        {{> afFormGroup name="family.self"}}
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>{{afFieldLabelText name="profile"}}</legend>
+                    {{#each afFieldNames name="profile"}}
+                        <div class="col s12 m6 l6">
+                            {{> afFormGroup name=this.name type="boolean-checkbox" class="i-checks"}}
+                        </div>
+                    {{/each}}
+                </fieldset>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">{{_ "AddMember.Insert"}}</button>
+                    <button type="reset" class="btn btn-default">{{_ "AddMember.Reset"}}</button>
+                </div>
+            {{/autoForm}}
         </div>
     </div>
 </template>

@@ -91,7 +91,8 @@
         "age": "Mother's age",
         "ocupation": "Ocupation"
       },
-      "Siblings": "Siblings (people)"
+      "Siblings": "Siblings (people)",
+      "Self": "Self"
     },
     "Profile": {
       "label": "Profile",
@@ -104,6 +105,12 @@
     "Register User": "Register User",
     "Username": "User Name",
     "Password": "Password",
-    "ConfirmPassword": "Confirm Password"
+    "ConfirmPassword": "Confirm Password",
+    "Insert": "Insert",
+    "Reset": "Reset"
+  },
+  "UserLogin": {
+    "Register": "Register",
+    "RecoverYourPassword": "Recover Your Password"
   }
 }

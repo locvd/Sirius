@@ -41,3 +41,8 @@ gwendall:simple-schema-i18n
 mozfet:autoform-materialize
 accounts-facebook
 accounts-google
+ostrio:files
+useraccounts:flow-routing
+service-configuration
+softwarerero:accounts-t9n
+mozfet:autoform-modals-materialize

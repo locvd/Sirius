@@ -30,3 +30,13 @@ FlowRouter.route('/newuser', {
     BlazeLayout.render('NewUserForm')
   }
 });
+
+FlowRouter.route('/sign-in', {
+  name: 'User Login',
+  action() {
+    BlazeLayout.render('UserLogin')
+  }
+});
+
+AccountsTemplates.configureRoute('signIn');
+AccountsTemplates.configureRoute('signUp');
