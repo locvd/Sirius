@@ -46,3 +46,6 @@ useraccounts:flow-routing
 service-configuration
 softwarerero:accounts-t9n
 mozfet:autoform-modals-materialize
+gadicohen:prism
+keepnox:perfect-scrollbar
+mfpierre:chartist-js
