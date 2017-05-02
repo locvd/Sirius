@@ -10,11 +10,39 @@ FlowRouter.route('/', {
   }
 });
 
+/*---------------------------------------------------------------------*/
 FlowRouter.route('/about', {
   name: 'App.About',
   action() {
     BlazeLayout.render('MainLayout', {
       main: 'serviceintro'
+    })
+  }
+});
+
+FlowRouter.route('/about-company', {
+  name: 'App.About.Company',
+  action() {
+    BlazeLayout.render('MainLayout', {
+      main: 'aboutCompany'
+    })
+  }
+});
+
+FlowRouter.route('/about-staff', {
+  name: 'App.About.Staff',
+  action() {
+    BlazeLayout.render('MainLayout', {
+      main: 'aboutStaff'
+    })
+  }
+});
+
+FlowRouter.route('/about-school', {
+  name: 'App.About.School',
+  action() {
+    BlazeLayout.render('MainLayout', {
+      main: 'aboutSchool'
     })
   }
 });

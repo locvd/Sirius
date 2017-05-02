@@ -1,18 +1,37 @@
 {
+  "Sirius": "シリウス",
   "hello": "こんにちは",
   "Logo": "ロゴ",
   "Home": "ホーム",
   "About": {
     "label": "サービス紹介",
-    "Company": "会社概要",
     "Staff": "スタッフ紹介",
-    "School": "花嫁学校"
+    "School": "花嫁学校",
+    "Company": {
+      "label": "会社概要",
+      "Name": "社名",
+      "Service": {
+        "label": "事業内容",
+        "MarriageConsulting": "結婚相談業務",
+        "WeddingPlanning": "結婚式の企画"
+      },
+      "Establishment": {
+        "label": "設立",
+        "Time": "1999年10月・サイト運営開始1999年11月"
+      },
+      "Address": {
+        "label": "所在地",
+        "Address": "埼玉県さいたま市北区日進町2丁目"
+      },
+      "Email": "メール"
+    }
   },
   "System": {
     "label": "システム",
     "Flow": "来日までの流れ",
     "Interview": "お見合い",
-    "WeddingTour": "結婚渡航"
+    "WeddingTour": "結婚渡航",
+    "CompanyInfo": "当社概要情報"
   },
   "Members": "会員一覧",
   "Banner": "ベトナム国際結婚紹介",

@@ -1,18 +1,37 @@
 {
+  "Sirius": "Sirius",
   "hello": "Xin chào",
   "Logo": "Biển hiệu",
   "Home": "Trang Chủ",
   "About": {
     "label": "Giới thiệu",
-    "Company": "Công ty",
     "Staff": "Đội ngũ nhân viên",
-    "School": "Trường cô dâu"
+    "School": "Trường cô dâu",
+    "Company": {
+      "label": "Công Ty",
+      "Name": "Tên Công Ty",
+      "Service": {
+        "label": "Dịch Vụ",
+        "MarriageConsulting": "Tư vấn hôn nhân",
+        "WeddingPlanning": "Lên kế hoạch lễ kết hôn"
+      },
+      "Establishment": {
+        "label": "Thành lập",
+        "Time": "Tháng 10 - 1999, website cũ từ tháng 11 - 1999"
+      },
+      "Address": {
+        "label": "Địa chỉ",
+        "Address": "2 Chome, Nisshincho, Kita-ku, Saitama-shi, Saitama, Japan"
+      },
+      "Email": "Email"
+    }
   },
   "System": {
     "label": "Hệ Thống",
     "Flow": "Quy Trình",
     "Interview": "Gặp Mặt",
-    "WeddingTour": "Về Cưới"
+    "WeddingTour": "Về Cưới",
+    "CompanyInfo": "Thông tin công ty"
   },
   "Members": "Hội Viên",
   "Banner": "Tư vấn Hôn nhân Nhật Bản",

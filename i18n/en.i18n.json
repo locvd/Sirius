@@ -1,18 +1,37 @@
 {
+  "Sirius": "Sirius",
   "hello": "hello",
   "Logo": "Logo",
   "Home": "Home",
   "About": {
     "label": "About",
-    "Company": "About Company",
     "Staff": "Our Staff",
-    "School": "Bridal School"
+    "School": "Bridal School",
+    "Company": {
+      "label": "About Company",
+      "Name": "Company Name",
+      "Service": {
+        "label": "Service",
+        "MarriageConsulting": "Marriage Consulting",
+        "WeddingPlanning": "Wedding Planning"
+      },
+      "Establishment": {
+        "label": "Establishment",
+        "Time": "October 1999 (Old website started from November 1999)"
+      },
+      "Address": {
+        "label": "Address",
+        "Address": "2 Chome, Nisshincho, Kita-ku, Saitama-shi, Saitama, Japan"
+      },
+      "Email": "Email"
+    }
   },
   "System": {
     "label": "System",
     "Flow": "Service Flow",
     "Interview": "Interview",
-    "WeddingTour": "Wedding Tour"
+    "WeddingTour": "Wedding Tour",
+    "CompanyInfo": "Company Information"
   },
   "Members": "Members",
   "Banner": "Vietnam - Japan Bridal Consulting",
