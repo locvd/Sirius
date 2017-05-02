@@ -10,6 +10,19 @@
     "Company": {
       "label": "Công Ty",
       "Name": "Tên Công Ty",
+      "CEOMessage":{
+        "label": "Lời nhắn từ giám đốc",
+        "Impression": {
+          "label": "Ấn tượng về phụ nữ Việt Nam",
+          "content-line1": "一般的な日本人はベトナムやベ トナム女性については漠然としたイメージしかないでしょう。ちょっと古い世代だとベトナム戦争を思い浮かべます。しかしすでに戦後40年近くが経ち戦争の記憶は過去のものになっています。2世代前、祖父母の出来事に関心は行きません。彼女たちには米国大好きの感情しかありません。しかも南部は米国との関係が深い",
+          "content-line2": "ベトナム女性は真面目です。こ れが私の第一印象です。そして恋愛好きで男性へのリスペクトがありま すさらによく働きます。恋愛に真っ直ぐで真面目でよく働くというと、男 性にとってこれ以上の結婚の条件はない気がします。離婚はベトナム女性にとって恐ろしい 出来事です。よってよほどの世間知らずか、暴力・浮気がない限りベトナム女性は離婚をしないし、その意味では男 性にとって最大のリスクは初めから大きくはないのです。"
+        },
+        "JapaneseMenAndVietnameseWomen": {
+          "label": "Phụ nữ Việt Nam và nam giới Nhật Bản",
+          "content-line1": "ベトナム女性は日本人に最も合うと 思います。まず若いベトナム女性は外見が日本人に似ていて 日本連れてきたら、日本人と思われるでしょう。気質は古き良き日本の時代を思わせます。大家族主義で年長者を敬い両親を大切にします。",
+          "content-line2": "一方新しいツールや 考え方も入って来ていて古さを感じません。ベトナム女性は真面目で愛情深く、男性への敬 意があ ります。いい女性は一目で分かるもの、 雑多な情報に振り回されずに 一歩を踏み出す勇気が必要です"
+        }
+      },
       "Service": {
         "label": "Dịch Vụ",
         "MarriageConsulting": "Tư vấn hôn nhân",
@@ -19,15 +32,32 @@
         "label": "Thành lập",
         "Time": "Tháng 10 - 1999, website cũ từ tháng 11 - 1999"
       },
-      "Address": {
-        "label": "Địa chỉ",
-        "Address": "2 Chome, Nisshincho, Kita-ku, Saitama-shi, Saitama, Japan"
-      },
+      "Representative": "Người đại diện",
+      "Address": "Địa chỉ",
       "Email": "Email",
       "TEL": "Số điện thoại",
       "Price": {
         "label": "Phí tư vấn",
         "Price": "1.78 triệu Yên (Việt Nam)"
+      },
+      "HeadQuater": {
+        "label": "Trụ sở chính",
+        "name": "Sirius Vietnam",
+        "Address": "2 Chome, Nisshincho, Kita-ku, Saitama-shi, Saitama, Japan",
+        "TEL": "+81-48-871-7020",
+        "Email": "bridal@1stclub.com",
+        "Representative": "Waki Yuji"
+      },
+      "VietnameseBranch": {
+        "label": "Chi nhánh Việt Nam",
+        "Address": "C8 - Đường 57 – KDC 586 - Phường Phú Thứ - Quận Cái Răng – Thành Phố Cần Thơ",
+        "TEL": "+84-90-626-3383",
+        "Email": "phihung2203@gmail.com",
+        "Representative": "Đặng Phi Hùng",
+        "Establishment": "Tháng 12 - 2012"
+      },
+      "OurTeam": {
+        "label": "Giới thiệu nhân viên"
       }
     }
   },

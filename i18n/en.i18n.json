@@ -5,11 +5,24 @@
   "Home": "Home",
   "About": {
     "label": "About",
-    "Staff": "Our Staff",
+    "Staff": "Our Team",
     "School": "Bridal School",
     "Company": {
       "label": "About Company",
       "Name": "Company Name",
+      "CEOMessage":{
+        "label": "CEO's Message",
+        "Impression": {
+          "label": "Impression About Vietnamese Women",
+          "content-line1": "一般的な日本人はベトナムやベ トナム女性については漠然としたイメージしかないでしょう。ちょっと古い世代だとベトナム戦争を思い浮かべます。しかしすでに戦後40年近くが経ち戦争の記憶は過去のものになっています。2世代前、祖父母の出来事に関心は行きません。彼女たちには米国大好きの感情しかありません。しかも南部は米国との関係が深い",
+          "content-line2": "ベトナム女性は真面目です。こ れが私の第一印象です。そして恋愛好きで男性へのリスペクトがありま すさらによく働きます。恋愛に真っ直ぐで真面目でよく働くというと、男 性にとってこれ以上の結婚の条件はない気がします。離婚はベトナム女性にとって恐ろしい 出来事です。よってよほどの世間知らずか、暴力・浮気がない限りベトナム女性は離婚をしないし、その意味では男 性にとって最大のリスクは初めから大きくはないのです。"
+        },
+        "JapaneseMenAndVietnameseWomen": {
+          "label": "Japanese Men And Vietnamese Women",
+          "content-line1": "ベトナム女性は日本人に最も合うと 思います。まず若いベトナム女性は外見が日本人に似ていて 日本連れてきたら、日本人と思われるでしょう。気質は古き良き日本の時代を思わせます。大家族主義で年長者を敬い両親を大切にします。",
+          "content-line2": "一方新しいツールや 考え方も入って来ていて古さを感じません。ベトナム女性は真面目で愛情深く、男性への敬 意があ ります。いい女性は一目で分かるもの、 雑多な情報に振り回されずに 一歩を踏み出す勇気が必要です"
+        }
+      },
       "Service": {
         "label": "Service",
         "MarriageConsulting": "Marriage Consulting",
@@ -19,15 +32,32 @@
         "label": "Establishment",
         "Time": "October 1999 (Old website started from November 1999)"
       },
-      "Address": {
-        "label": "Address",
-        "Address": "2 Chome, Nisshincho, Kita-ku, Saitama-shi, Saitama, Japan"
-      },
+      "Representative": "Representative",
+      "Address": "Address",
       "Email": "Email",
       "TEL": "Phone Number",
       "Price": {
         "label": "Price",
         "Price": "1.78 millions Yen (Vietnam)"
+      },
+      "HeadQuater": {
+        "label": "Head Quater",
+        "Address": "2 Chome, Nisshincho, Kita-ku, Saitama-shi, Saitama, Japan",
+        "TEL": "+81-48-871-7020",
+        "Email": "bridal@1stclub.com",
+        "Representative": "Yuji Waki"
+      },
+      "VietnameseBranch": {
+        "label": "Vietnamese Branch",
+        "Name": "Sirius Vietnam",
+        "Address": "C8 - Street 57 – Residential Area 586  - Phu Thu - Cai Rang – Can Tho - Vietnam",
+        "TEL": "+84-90-626-3383",
+        "Email": "phihung2203@gmail.com",
+        "Representative": "Hung Phi Dang",
+        "Establishment": "December 2012"
+      },
+      "OurTeam": {
+        "label": "Our Team"
       }
     }
   },
