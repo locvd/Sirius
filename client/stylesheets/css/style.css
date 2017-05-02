@@ -1562,22 +1562,22 @@ tr.group:hover {
   margin: 20px auto;
 }
 
-.collapsible-header {
-  font-weight: 500;
-}
+/*.collapsible-header {*/
+  /*font-weight: 500;*/
+/*}*/
 
-/* Sidebar nav open close icons*/
-.collapsible-header:after {
-  font-family: "Material-Design-Icons";
-  content: "\e7c3";
-  float: right;
-  color: #9e9e9e;
-  font-size: 18px;
-}
+/*!* Sidebar nav open close icons*!*/
+/*.collapsible-header:after {*/
+  /*font-family: "material-icons";*/
+  /*content: "\e7c3";*/
+  /*float: right;*/
+  /*color: #9e9e9e;*/
+  /*font-size: 18px;*/
+/*}*/
 
-.collapsible-header.active:after {
-  content: "\e7c1";
-}
+/*.collapsible-header.active:after {*/
+  /*content: "\e7c1";*/
+/*}*/
 
 #input-select .input-field label {
   position: absolute;

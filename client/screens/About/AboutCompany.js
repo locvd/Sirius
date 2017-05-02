@@ -3,7 +3,5 @@
  */
 
 Template.aboutCompany.onRendered(function () {
-  $(document).ready(function(){
-    $('ul.tabs').tabs();
-  });
+  $(".collapsible").collapsible({accordion: false});
 });
