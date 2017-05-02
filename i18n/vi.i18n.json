@@ -23,7 +23,12 @@
         "label": "Địa chỉ",
         "Address": "2 Chome, Nisshincho, Kita-ku, Saitama-shi, Saitama, Japan"
       },
-      "Email": "Email"
+      "Email": "Email",
+      "TEL": "Số điện thoại",
+      "Price": {
+        "label": "Phí tư vấn",
+        "Price": "1.78 triệu Yên (Việt Nam)"
+      }
     }
   },
   "System": {

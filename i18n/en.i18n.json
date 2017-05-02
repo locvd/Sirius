@@ -23,7 +23,12 @@
         "label": "Address",
         "Address": "2 Chome, Nisshincho, Kita-ku, Saitama-shi, Saitama, Japan"
       },
-      "Email": "Email"
+      "Email": "Email",
+      "TEL": "Phone Number",
+      "Price": {
+        "label": "Price",
+        "Price": "1.78 millions Yen (Vietnam)"
+      }
     }
   },
   "System": {
