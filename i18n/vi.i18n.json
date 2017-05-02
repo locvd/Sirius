@@ -2,8 +2,18 @@
   "hello": "Xin chào",
   "Logo": "Biển hiệu",
   "Home": "Trang Chủ",
-  "About": "Giới Thiệu",
-  "System": "Hệ Thống",
+  "About": {
+    "label": "Giới thiệu",
+    "Company": "Công ty",
+    "Staff": "Đội ngũ nhân viên",
+    "School": "Trường cô dâu"
+  },
+  "System": {
+    "label": "Hệ Thống",
+    "Flow": "Quy Trình",
+    "Interview": "Gặp Mặt",
+    "WeddingTour": "Về Cưới"
+  },
   "Members": "Hội Viên",
   "Banner": "Tư vấn Hôn nhân Nhật Bản",
   "What is Vietnamese bridal consulting": "Tư vấn hôn nhân Việt Nam - Nhật Bản là gì",

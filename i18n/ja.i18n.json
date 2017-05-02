@@ -2,8 +2,18 @@
   "hello": "こんにちは",
   "Logo": "ロゴ",
   "Home": "ホーム",
-  "About": "サービス概要",
-  "System": "システム",
+  "About": {
+    "label": "サービス紹介",
+    "Company": "会社概要",
+    "Staff": "スタッフ紹介",
+    "School": "花嫁学校"
+  },
+  "System": {
+    "label": "システム",
+    "Flow": "来日までの流れ",
+    "Interview": "お見合い",
+    "WeddingTour": "結婚渡航"
+  },
   "Members": "会員一覧",
   "Banner": "ベトナム国際結婚紹介",
   "What is Vietnamese bridal consulting": "国際結婚ベトナムとは",

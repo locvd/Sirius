@@ -2,8 +2,18 @@
   "hello": "hello",
   "Logo": "Logo",
   "Home": "Home",
-  "About": "About",
-  "System": "System",
+  "About": {
+    "label": "About",
+    "Company": "About Company",
+    "Staff": "Our Staff",
+    "School": "Bridal School"
+  },
+  "System": {
+    "label": "System",
+    "Flow": "Service Flow",
+    "Interview": "Interview",
+    "WeddingTour": "Wedding Tour"
+  },
   "Members": "Members",
   "Banner": "Vietnam - Japan Bridal Consulting",
   "What is Vietnamese bridal consulting": "What is Vietnamese bridal consulting",

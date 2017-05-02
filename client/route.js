@@ -10,6 +10,24 @@ FlowRouter.route('/', {
   }
 });
 
+FlowRouter.route('/about', {
+  name: 'App.About',
+  action() {
+    BlazeLayout.render('MainLayout', {
+      main: 'serviceintro'
+    })
+  }
+});
+
+FlowRouter.route('/memberlist', {
+  name: 'App.MemberList',
+  action() {
+    BlazeLayout.render('MainLayout', {
+      main: 'memberList'
+    })
+  }
+});
+
 FlowRouter.route('/test', {
   name: 'Test page',
   action() {

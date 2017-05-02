@@ -1,15 +1,38 @@
 <template name="navBar">
+    <!-- start header nav-->
     <div class="navbar-fixed">
-        <nav>
-            <div class="nav-wrapper indigo">
-                <ul id="nav-mobile" class="right hide-on-small-and-down">
-                    <li class="tab"><a>{{_ "Home"}}</a></li>
-                    <li class="tab"><a>{{_ "About"}}</a></li>
-                    <li class="tab"><a>{{_ "System"}}</a></li>
-                    <li class="tab"><a>{{_ "Members"}}</a></li>
+        <nav class="navbar-color">
+            <ul id="about-dropdown" class="dropdown-content">
+                <li><a href="/">{{_ "About.Company"}}</a></li>
+                <li><a href="/">{{_ "About.Staff"}}</a></li>
+                <li><a href="/">{{_ "About.School"}}</a></li>
+            </ul>
+            <ul id="system-dropdown" class="dropdown-content">
+                <li><a href="/">{{_ "System.Flow"}}</a></li>
+                <li><a href="/">{{_ "System.Interview"}}</a></li>
+                <li><a href="/">{{_ "System.WeddingTour"}}</a></li>
+            </ul>
+            <div class="nav-wrapper">
+                <ul class="left">
+                    <li>
+                        <h1 class="logo-wrapper">
+                            <a href="/" class="brand-logo darken-1"><img
+                                    src="images/materialize-logo.png"
+                                    alt="materialize logo">
+                            </a>
+                            <span class="logo-text">Materialize</span>
+                        </h1>
+                    </li>
+                </ul>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="/" class="waves-effect waves-block waves-light"><i class="material-icons left">home</i>{{_ "Home"}}</a></li>
+                    <li><a href="#!" class="dropdown-button" data-activates="about-dropdown">{{_ "About.label"}}<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a href="#!" class="dropdown-button" data-activates="system-dropdown">{{_ "System.label"}}<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a href="/memberlist" class="waves-effect waves-block waves-light"><i class="material-icons left">supervisor_account</i>{{_ "Members"}}</a></li>
                     <li>{{> atNavButton }}</li>
                 </ul>
             </div>
         </nav>
     </div>
+    <!-- end header nav-->
 </template>
