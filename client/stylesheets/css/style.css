@@ -574,9 +574,13 @@ nav ul li.no-hover:hover {
   background: none;
 }
 
-.side-nav a {
-  line-height: 42px;
-  height: 42px;
+/*.side-nav a {*/
+  /*line-height: 42px;*/
+  /*height: 42px;*/
+/*}*/
+
+.side-nav {
+  width: auto;
 }
 
 .side-nav.leftside-navigation .collapsible-body li.active {
@@ -587,9 +591,9 @@ nav ul li.no-hover:hover {
   background-color: rgba(0, 0, 0, 0.04);
 }
 
-.side-nav .collapsible-body li a {
-  margin: 0 1rem 0 3rem;
-}
+/*.side-nav .collapsible-body li a {*/
+  /*margin: 0 1rem 0 3rem;*/
+/*}*/
 
 ul.side-nav.leftside-navigation {
   top: 64px;

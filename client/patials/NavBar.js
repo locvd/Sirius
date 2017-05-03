@@ -12,6 +12,7 @@ Template.navBar.onRendered(function () {
     belowOrigin: true, // Displays dropdown below the button
     alignment: 'left' // Displays dropdown with edge aligned to the left of button
   });
+  $(".collapsible").collapsible({accordion: false});
 });
 
 Template.navBar.events({
