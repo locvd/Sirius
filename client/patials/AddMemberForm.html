@@ -1,8 +1,8 @@
 <template name="AddMemberForm">
     <div class="card-panel">
-        <h1>{{_ "AddMember.Add Member"}}</h1>
+        <h1>{{_ "AddMember.Add Member"}}_{{memberInsert}}</h1>
         <div class="row">
-            {{#autoForm collection="SiriusMembers" id="addMember2" type="method" meteormethod="insertNewMember"}}
+            {{#autoForm collection="SiriusMembers" id="addMember2" type="method" meteormethod=memberInsert resetOnSuccess=true}}
                 <fieldset style="border: none">
                     <legend class="header">{{afFieldLabelText name="basicInformation"}}</legend>
                     {{#each afFieldNames name="basicInformation"}}
@@ -53,7 +53,7 @@
                     {{/each}}
                 </fieldset>
                 <div class="form-group">
-                    <button type="submit" class="btn btn-primary">{{_ "AddMember.Insert"}}</button>
+                    <button id="memInsertSubmitBtn" type="submit" class="btn btn-primary">{{_ "AddMember.Insert"}}</button>
                     <button type="reset" class="btn btn-default">{{_ "AddMember.Reset"}}</button>
                 </div>
             {{/autoForm}}

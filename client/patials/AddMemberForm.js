@@ -1,7 +1,8 @@
 /**
  * Created by locvd on 2017/04/29.
  */
-import SiriusMemberSchema from '../../lib/collections/schema/SiriusMemberSchema';
+
+import SiriusMethod from "../../lib/enum/SiriusMethods";
 
 Template.AddMemberForm.onRendered(function () {
 });
@@ -11,10 +12,11 @@ Template.AddMemberForm.onCreated(function () {
 });
 
 Template.AddMemberForm.helpers({
-  inputType: function (obj) {
-    return AutoForm.getInputType(obj);
-  },
-  isObjectField: function (obj) {
-    return AutoForm.getInputType(obj)
+  memberInsert: SiriusMethod.MEMBER_INSERT
+});
+
+Template.AddMemberForm.events({
+  'click #memInsertSubmitBtn': function () {
+    console.log("Clicked button #memInsertSubmitBtn");
   }
 });
