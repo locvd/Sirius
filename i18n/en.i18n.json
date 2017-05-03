@@ -77,6 +77,7 @@
   "What is Vietnamese bridal consulting": "What is Vietnamese bridal consulting",
   "Service Overview": "国際結婚ベトナムはアジア女性を日本人男性にご紹介しています。東アジアは近年、目覚しい経済成長と発展をとげています。それはハノイ、ホーチミンの一部の都市だけで、都心から少し離れるとまだのどかな田園風景が見られます。<br>弊社がご紹介をする女性達もそんな都会に染まらない地方の素直な女性たちです。結婚希望の男性は国際結婚に一歩踏み出す勇気を出して下さい、前に出ないと始まりません、ぜひベトナムその他アジア女性の素直さや穏やかさを感じて頂きたいと思います。そして結婚に対する気持ちを諦めないで幸せになる努力と勇気を持って下さい。外国人女性と結婚を真面目にお考えの方に限ります。",
   "SiriusMemberSchema": {
+    "memberCode": "Member Code",
     "basicInformation": {
       "label": "Basic Information",
       "Name": "Full Name",
@@ -180,5 +181,19 @@
   "UserLogin": {
     "Register": "Register",
     "RecoverYourPassword": "Recover Your Password"
+  },
+  "SiriusActivitySchema": {
+    "insert": "Insert",
+    "update": "Update",
+    "remove": "Remove",
+    "interview-order": "interview order",
+    "activityType": "Activity Type",
+    "username": "User Name",
+    "memberList": "Member List",
+    "memberCode": "Member Code",
+    "createdTime": "Created Time",
+    "lastMemberCode": "Last Member Code",
+    "userId": "User ID",
+    "memberId": "Member ID"
   }
 }

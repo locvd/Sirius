@@ -82,6 +82,7 @@
   "What is Vietnamese bridal consulting": "Tư vấn hôn nhân Việt Nam - Nhật Bản là gì",
   "Service Overview": "Chúng tôi là dịch vụ tư vấn hôn nhân cho các bạn nữ, có nhu cầu muốn kết hôn với nam giới Nhật Bản. Nhật Bản nổi tiếng là một đất nước mà ở đó quyền lợi của phụ nữ luôn được đảm bảo. Nam giới Nhật Bản được dạy từ nhỏ là phải cư xử nhã nhặn với phụ nữ",
   "SiriusMemberSchema": {
+    "memberCode": "Mã hội viên",
     "basicInformation": {
       "label": "Thông tin cơ bản",
       "Name": "Họ tên",
@@ -184,5 +185,19 @@
   },
   "UserLogin": {
     "Register": "Đăng ký"
+  },
+  "SiriusActivitySchema": {
+    "insert": "Tạo",
+    "update": "Thay đổi",
+    "remove": "Xóa",
+    "interview-order": "đăng ký gặp mặt",
+    "activityType": "Loại thao tác",
+    "username": "Tên User",
+    "memberList": "Danh sách hội viên",
+    "memberCode": "Mã hội viên",
+    "createdTime": "Thời điểm thao tác",
+    "lastMemberCode": "Mã thành viên mới nhất",
+    "userId": "User ID",
+    "memberId": "Member ID"
   }
 }

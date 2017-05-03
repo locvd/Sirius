@@ -3,6 +3,7 @@
         <h1>{{_ "AddMember.Add Member"}}</h1>
         <div class="row">
             {{#autoForm collection="SiriusUsers" id="addUser2" type="insert"}}
+                {{> afFormGroup name="username"}}
                 <fieldset style="border: none">
                     <legend class="header">{{afFieldLabelText name="basicInformation"}}</legend>
                     {{#each afFieldNames name="basicInformation"}}
@@ -20,7 +21,7 @@
                     {{/each}}
                 </fieldset>
                 <fieldset style="border: none">
-                    <legend>{{afFieldLabelText name="family"}}</legend>
+                    <legend class="header">{{afFieldLabelText name="family"}}</legend>
                     <fieldset style="border: none">
                         <legend>{{afFieldLabelText name="family.father"}}</legend>
                         {{#each afFieldNames name="family.father"}}

@@ -85,4 +85,4 @@ FlowRouter.route('/sign-in', {
 });
 
 AccountsTemplates.configureRoute('signIn');
-AccountsTemplates.configureRoute('signUp');
+// AccountsTemplates.configureRoute('signUp');
