@@ -167,7 +167,9 @@
       "label": "Profile",
       "publish": "Publish",
       "retire": "Retire"
-    }
+    },
+    "Photos": "Photos",
+    "Videos": "Videos"
   },
   "AddMember": {
     "Add Member": "Add New Member",

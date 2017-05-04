@@ -4,6 +4,11 @@
         <div class="row">
             {{#autoForm collection="SiriusMembers" id="addMember2" type="method" meteormethod=memberInsert resetOnSuccess=true}}
                 <fieldset style="border: none">
+                    <legend class="header">{{afFieldLabelText name="photos"}}</legend>
+                    {{> afQuickField name="photos"}}
+                    {{> afQuickField name="videos"}}
+                </fieldset>
+                <fieldset style="border: none">
                     <legend class="header">{{afFieldLabelText name="basicInformation"}}</legend>
                     {{#each afFieldNames name="basicInformation"}}
                         <div class="col s12 m6 l6">

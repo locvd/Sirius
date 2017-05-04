@@ -8,13 +8,17 @@
 </template>
 
 <template name="uploadForm">
-    {{#with currentUpload}}
-        Uploading <b>{{file.name}}</b>:
-        <span id="progress">{{progress.get}}%</span>
-    {{else}}
-        <input id="fileInput" type="file" />
-        <p><small>Upload file in <code>jpeg</code> or <code>png</code> format, with size less or equal to 10MB</small></p>
-    {{/with}}
+    <input id="fileInput" type="file" multiple><br>
+    {{#each filesToUpload}}
+        <b>{{name}}</b>:
+        {{#with uploadInstance this}}
+            <div class="progress">
+                <div class="determinate" style="width: {{progress.get}}%"></div>
+            </div>
+        {{else}}
+            Done<br>
+        {{/with}}
+    {{/each}}
 </template>
 
 <template name="uploadedFiles">

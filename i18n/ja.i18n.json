@@ -167,7 +167,9 @@
       "label": "プロフィール",
       "publish": "公開",
       "retire": "退会"
-    }
+    },
+    "Photos": "画像",
+    "Videos": "ビデオ"
   },
   "AddMember": {
     "Add Member": "新会員追加",

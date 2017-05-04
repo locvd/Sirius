@@ -172,7 +172,9 @@
       "label": "Hồ sơ",
       "publish": "Công khai",
       "retire": "Bỏ đoàn"
-    }
+    },
+    "Photos": "Ảnh",
+    "Videos": "Video"
   },
   "AddMember": {
     "Add Member": "Thêm Thành Viên Mới",
