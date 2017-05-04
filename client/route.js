@@ -84,5 +84,12 @@ FlowRouter.route('/sign-in', {
   }
 });
 
+FlowRouter.route('/upload', {
+  name: 'File Upload',
+  action(){
+   BlazeLayout.render('SampleUpload')
+  }
+});
+
 AccountsTemplates.configureRoute('signIn');
 // AccountsTemplates.configureRoute('signUp');
