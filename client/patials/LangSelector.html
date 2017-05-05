@@ -1,12 +1,12 @@
 <template name="langSelector">
     <div id="tx-live-lang-container" class="txlive-langselector txlive-langselector-bottomright">
-        <ul id="tx-live-lang-picker" class="txlive-langselector-list notranslate {{click}}">
+        <ul id="tx-live-lang-picker" class="txlive-langselector-list notranslate {{#if show}}txlive-langselector-list-opened{{/if}}">
             <li data-value="en"><span class="flag-icon flag-icon-us"></span> English</li>
             <li data-value="ja"><span class="flag-icon flag-icon-jp"></span> 日本語</li>
             <li data-value="vi"><span class="flag-icon flag-icon-vn"></span> Tiếng Việt</li>
         </ul>
-        <div class="txlive-langselector-toggle notranslate" id="tx-live-lang-toggle"><span
-                class="txlive-langselector-current" id="tx-live-lang-current">English</span><span
-                class="txlive-langselector-marker"></span></div>
+        <div class="txlive-langselector-toggle notranslate" id="tx-live-lang-toggle">
+            <span class="flag-icon flag-icon-{{currentLang.icon}}"></span> {{currentLang.text}}
+        </div>
     </div>
 </template>

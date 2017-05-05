@@ -1,27 +1,40 @@
 /**
  * Created by locvd on 2017/04/21.
  */
-Template.langSelector.onRendered(function () {
-  this.hideShow = "";
-  let lang = TAPi18n.getLanguage();
-  if (!lang) {
-    lang = 'ja'
-  }
-  const li = jQuery("li[data-value='"+lang+"']")[0];
-  jQuery('#tx-live-lang-toggle').html(li.innerHTML);
+
+import LangConfig from "../../lib/configs/lang";
+
+Template.langSelector.onCreated(function () {
+  this.show = new ReactiveVar(false);
+  this.currentLang = new ReactiveVar({});
 });
+
+Template.langSelector.onRendered(function () {
+  let lang = TAPi18n.getLanguage();
+  this.currentLang.set(LangConfig[lang]);
+});
+
+Template.langSelector.helpers({
+  show: function () {
+    return Template.instance().show.get();
+  },
+  currentLang: function () {
+    return Template.instance().currentLang.get();
+  }
+});
+
 Template.langSelector.events({
   'click #tx-live-lang-container'(event, instance){
-    if (instance.hideShow === "") {
-      instance.hideShow = "txlive-langselector-list-opened";
+    if (instance.show.get() === false) {
+      instance.show.set(true)
     } else {
-      instance.hideShow = "";
+      instance.show.set(false);
     }
-    jQuery("#tx-live-lang-picker").attr('class', 'txlive-langselector-list notranslate ' + instance.hideShow);
   },
   'click #tx-live-lang-container ul li'(event, instance){
-    jQuery('#tx-live-lang-toggle').html(event.toElement.innerHTML);
-    TAPi18n.setLanguage(event.toElement.getAttribute('data-value'));
-    T9n.setLanguage(event.toElement.getAttribute('data-value'));
+    let lang = event.toElement.getAttribute('data-value');
+    instance.currentLang.set(LangConfig[lang]);
+    TAPi18n.setLanguage(lang);
+    T9n.setLanguage(lang);
   }
 });
