@@ -2,12 +2,13 @@
     <div class="card-panel">
         <h1>{{_ "AddMember.Add Member"}}</h1>
         <div class="row">
-            {{#autoForm collection="SiriusMembers" id="addMember2" type="method" meteormethod=memberInsert resetOnSuccess=true}}
-                <fieldset style="border: none">
-                    <legend class="header">{{afFieldLabelText name="photos"}}</legend>
-                    {{> afQuickField name="photos"}}
-                    {{> afQuickField name="videos"}}
-                </fieldset>
+            {{#autoForm collection="SiriusMembers" id="addMember2" type="method" meteormethod=memberInsert
+                        resetOnSuccess=true}}
+                <!--<fieldset style="border: none">-->
+                <!--<legend class="header">{{afFieldLabelText name="photos"}}</legend>-->
+                <!--{{> afQuickField name="photos"}}-->
+                <!--{{> afQuickField name="videos"}}-->
+                <!--</fieldset>-->
                 <fieldset style="border: none">
                     <legend class="header">{{afFieldLabelText name="basicInformation"}}</legend>
                     {{#each afFieldNames name="basicInformation"}}
@@ -52,13 +53,17 @@
                 <fieldset>
                     <legend>{{afFieldLabelText name="profile"}}</legend>
                     {{#each afFieldNames name="profile"}}
-                        <div class="col s12 m6 l6">
-                            {{> afQuickField name=this.name class="filled-in"}}
+                        <div class="form-group col s12 m6 l6" data-required="true">
+                            <input type="checkbox" value="true" name={{this.name}} class="filled-in"
+                                   id={{this.name}} data-schema-key={{this.name}}>
+                            <!--{{> afFieldInput name=this.name class="filled-in"}}-->
+                            <label for={{this.name}} class="control-label">{{afFieldLabelText name=this.name}}</label>
                         </div>
                     {{/each}}
                 </fieldset>
                 <div class="form-group">
-                    <button id="memInsertSubmitBtn" type="submit" class="btn btn-primary">{{_ "AddMember.Insert"}}</button>
+                    <button id="memInsertSubmitBtn" type="submit" class="btn btn-primary">{{_
+                            "AddMember.Insert"}}</button>
                     <button type="reset" class="btn btn-default">{{_ "AddMember.Reset"}}</button>
                 </div>
             {{/autoForm}}
