@@ -22,15 +22,23 @@
 </template>
 
 <template name="uploadedFiles">
-    {{#if uploadedFiles.count}}
-        <ul>
-            {{#each file in uploadedFiles.each}}
-                <li>
-                    <a href="{{file.link}}?download=true" download="{{file.name}}">{{file.name}}</a>
-                </li>
-            {{/each}}
-        </ul>
-    {{else}}
-        <div>No files uploaded, yet</div>
-    {{/if}}
+    <div class="container">
+
+        <p class="caption">Masonry with Magnific Popup is a responsive lightbox & dialog script with focus
+            on performance and providing best experience for user with any device</p>
+        <div class="divider"></div>
+
+
+        <div class="row popup-gallery">
+            {{#if uploadedFiles.count}}
+                {{#each file in uploadedFiles.each}}
+                    <div class="col s6 m3 l2 no-padding" style="line-height: 0px;">
+                        <a href="{{file.link}}" title="{{file.name}}" style="line-height: 0px;">
+                            <img class="responsive-img" src="{{file.link}}" alt="{{file.name}}">
+                        </a>
+                    </div>
+                {{/each}}
+            {{/if}}
+        </div>
+    </div>
 </template>

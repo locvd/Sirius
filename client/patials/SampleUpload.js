@@ -4,6 +4,35 @@
 
 import {ReactiveVar} from 'meteor/reactive-var';
 
+Template.uploadedFiles.onRendered(function () {
+  //popup-gallery
+  $('.popup-gallery').magnificPopup({
+    delegate: 'a',
+    type: 'image',
+    closeOnContentClick: true,
+    fixedContentPos: true,
+    tLoading: 'Loading image #%curr%...',
+    mainClass: 'mfp-img-mobile mfp-no-margins mfp-with-zoom',
+    gallery: {
+      enabled: true,
+      navigateByImgClick: true,
+      preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+    },
+    image: {
+      verticalFit: true,
+      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+      titleSrc: function (item) {
+        return item.el.attr('title');
+      },
+      zoom: {
+        enabled: true,
+        duration: 300 // don't foget to change the duration also in CSS
+      }
+    }
+  });
+
+});
+
 Template.uploadedFiles.helpers({
   uploadedFiles: function () {
     return Images.find();
@@ -27,8 +56,7 @@ Template.uploadForm.helpers({
 Template.uploadForm.events({
   'change #fileInput': function (e, template) {
     if (e.currentTarget.files && e.currentTarget.files[0]) {
-      // We upload only one file, in case
-      // there was multiple files selected
+
       let fileList = e.currentTarget.files;
       let files = [];
       let uploads = {};

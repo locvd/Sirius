@@ -179,100 +179,7 @@ let Initialize = function() {
   $('.rightside-navigation').height(righttnav).perfectScrollbar({
     suppressScrollX: true
   }); 
-  
-  
-  // Fullscreen
-  function toggleFullScreen() {
-    if ((document.fullScreenElement && document.fullScreenElement !== null) ||
-      (!document.mozFullScreen && !document.webkitIsFullScreen)) {
-      if (document.documentElement.requestFullScreen) {
-        document.documentElement.requestFullScreen();
-      }
-      else if (document.documentElement.mozRequestFullScreen) {
-        document.documentElement.mozRequestFullScreen();
-      }
-      else if (document.documentElement.webkitRequestFullScreen) {
-        document.documentElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
-      }
-    }
-    else {
-      if (document.cancelFullScreen) {
-        document.cancelFullScreen();
-      }
-      else if (document.mozCancelFullScreen) {
-        document.mozCancelFullScreen();
-      }
-      else if (document.webkitCancelFullScreen) {
-        document.webkitCancelFullScreen();
-      }
-    }
-  }
 
-  $('.toggle-fullscreen').click(function() {
-    toggleFullScreen();
-  });
-
-
-  // Floating-Fixed table of contents (Materialize pushpin)
-  if ($('nav').length) {
-    $('.toc-wrapper').pushpin({
-      top: $('nav').height()
-    });
-  }
-  else if ($('#index-banner').length) {
-    $('.toc-wrapper').pushpin({
-      top: $('#index-banner').height()
-    });
-  }
-  else {
-    $('.toc-wrapper').pushpin({
-      top: 0
-    });
-  }
-
-  // Toggle Flow Text
-  var toggleFlowTextButton = $('#flow-toggle')
-  toggleFlowTextButton.click(function() {
-    $('#flow-text-demo').children('p').each(function() {
-      $(this).toggleClass('flow-text');
-    })
-  });
-  
-  //Alerts
-  $("#card-alert .close").click(function(){
-    $(this).closest('#card-alert').fadeOut('slow');
-  });
-  
-  //Toggle Containers on page
-  var toggleContainersButton = $('#container-toggle-button');
-  toggleContainersButton.click(function() {
-    $('body .browser-window .container, .had-container').each(function() {
-      $(this).toggleClass('had-container');
-      $(this).toggleClass('container');
-      if ($(this).hasClass('container')) {
-        toggleContainersButton.text("Turn off Containers");
-      }
-      else {
-        toggleContainersButton.text("Turn on Containers");
-      }
-    });
-  });
-
-  // Detect touch screen and enable scrollbar if necessary
-  function is_touch_device() {
-    try {
-      document.createEvent("TouchEvent");
-      return true;
-    }
-    catch (e) {
-      return false;
-    }
-  }
-  if (is_touch_device()) {
-    $('#nav-mobile').css({
-      overflow: 'auto'
-    })
-  }
 
   //LINE CHART WITH AREA IN SIDEBAR
   if (typeof Chartist != "undefined") {
@@ -286,22 +193,6 @@ let Initialize = function() {
         showArea: true
     });
   }
-  //Trending chart for small screen
-  if(window_width <= 480){    
-    $("#trending-line-chart").attr({
-      height: '200'
-    });
-  }
-  
-  /*
-  * Advanced UI 
-  */
-  
-  
-         
-    
-
-
 
 }; // end of document ready
 
