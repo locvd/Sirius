@@ -178,7 +178,9 @@
     "Password": "Password",
     "ConfirmPassword": "Confirm Password",
     "Insert": "Insert",
-    "Reset": "Reset"
+    "Reset": "Reset",
+    "UploadPhotos": "Upload Photos",
+    "ChoosePhotos": "Choose one or more photos"
   },
   "UserLogin": {
     "Register": "Register",

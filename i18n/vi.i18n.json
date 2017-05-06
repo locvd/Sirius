@@ -183,7 +183,9 @@
     "Password": "Mật khẩu",
     "ConfirmPassword": "Nhập lại mật khẩu",
     "Insert": "Thêm",
-    "Reset": "Soạn lại"
+    "Reset": "Soạn lại",
+    "UploadPhotos": "Upload Ảnh",
+    "ChoosePhotos": "Chọn 1 hoặc nhiều ảnh"
   },
   "UserLogin": {
     "Register": "Đăng ký"

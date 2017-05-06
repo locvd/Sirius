@@ -19,7 +19,6 @@ shell-server@0.2.3            # Server-side component of the `meteor shell` comm
 
 autopublish@1.0.7             # Publish all data to the clients (for prototyping)
 fourseven:scss
-materialize:materialize
 planettraining:material-design-icons
 jquery@1.11.10
 tap:i18n
@@ -52,3 +51,4 @@ fortawesome:fontawesome
 mrt:jquery-masonry
 gabrielengel:konecty-magnific-popup
 mrt:jquery-imagesloaded
+materialize:materialize

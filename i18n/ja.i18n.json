@@ -178,7 +178,10 @@
     "Password": "パスワード",
     "ConfirmPassword": "パスワード（再）",
     "Insert": "挿入",
-    "Reset": "リセット"
+    "Reset": "リセット",
+    "UploadPhotos": "画像のアップロード",
+    "ChoosePhotos": "一つ以上の画像を選んでください"
+
   },
   "UserLogin": {
     "Register": "登録"
