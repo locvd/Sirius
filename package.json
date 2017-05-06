@@ -10,6 +10,7 @@
     "imports": "^1.0.0",
     "meteor-node-stubs": "~0.2.4",
     "simpl-schema": "^0.2.3",
-    "youtube-api": "^2.0.8"
+    "youtube-api": "^2.0.8",
+    "youtube-validator": "^1.1.2"
   }
 }

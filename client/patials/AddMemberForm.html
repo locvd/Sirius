@@ -94,6 +94,21 @@
                                 {{/each}}
                             {{/if}}
                         </div>
+                        <div class="{{classOfGroup this}} {{#if afFieldIsInvalid
+                                                                name="videos"}}has-error{{/if}}">
+                            <label class="control-label">{{afFieldLabelText name="videos"}}</label>
+                            {{> afFieldInput name="videos" id="member-video-link"}}
+                        </div>
+                        <div class="col s12 m8 l6">
+                            {{#if videoLink}}
+                                <div class="video-container">
+                                    <iframe src={{videoLink}} frameborder="0" allowfullscreen></iframe>
+                                </div>
+                            {{else}}
+                                <h5>No video selected</h5>
+                            {{/if}}
+                        </div>
+
                     </fieldset>
 
 

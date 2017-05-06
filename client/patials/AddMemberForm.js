@@ -5,6 +5,13 @@
 import SiriusMethod from "../../lib/enum/SiriusMethods";
 
 Template.AddMemberForm.onRendered(function () {
+
+  let link = $('#member-video-link')[0].value;
+
+  if (link) {
+    this.videoLink.set(link);
+  }
+
   //popup-gallery
   $('.popup-gallery').magnificPopup({
     delegate: 'a',
@@ -45,19 +52,32 @@ Template.AddMemberForm.onCreated(function () {
   this.showPhotoUpload = new ReactiveVar(false);
   this.photoFiles = [];
   this.photoDatas = new ReactiveVar([]);
+  this.videoLink = new ReactiveVar(false);
 
   let vm = this;
   let hooksObject = {
     // Called when form does not have a `type` attribute
     // Called when any submit operation succeeds
     onSuccess: function (formType, result) {
-      console.log(formType, result)
-      vm.showPhotoUpload.set(true);
+      console.log(formType, result);
+      // vm.showPhotoUpload.set(true);
+    },
+    onError: function(formType, error) {
+      console.log(formType, error);
     },
     formToDoc: function (doc) {
-      console.log(doc);
-      // alter doc
       return doc;
+    },
+    before: {
+      'method': function (doc) {
+        return doc;
+      }
+    },
+
+    after: {
+      'method': function (err, res) {
+        console.log(err, res);
+      }
     }
   };
 
@@ -79,6 +99,9 @@ Template.AddMemberForm.helpers({
   },
   photoDatas: function () {
     return Template.instance().photoDatas.get();
+  },
+  videoLink: function () {
+    return Template.instance().videoLink.get();
   }
 });
 
@@ -106,7 +129,6 @@ Template.AddMemberForm.events({
         let reader = new FileReader();
         reader.onload = (function (file) {
           return function (e) {
-            console.log(e);
             photoDatas = template.photoDatas.get();
             photoDatas.push({
               data: e.target.result,
@@ -120,10 +142,19 @@ Template.AddMemberForm.events({
 
       template.photoFiles = files;
     }
+  },
+  'change #member-video-link': function (e, template) {
+    var matcher = /^(http(s)?:\/\/)?((w){3}.)?youtu(be|.be)?(\.com)?\/.+/;
+    if (matcher.test(e.target.value)) {
+      template.videoLink.set(e.target.value);
+    } else {
+      template.videoLink.set(false);
+    }
   }
 });
 
 Template.uploadedPhotos.onRendered(function () {
+
   //popup-gallery
   $('.popup-gallery').magnificPopup({
     delegate: 'a',
