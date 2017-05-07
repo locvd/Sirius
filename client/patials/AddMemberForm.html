@@ -1,17 +1,34 @@
 <template name="AddMemberForm">
     <div class="card-panel">
         <h1 class="header">{{_ "AddMember.Add Member"}}</h1>
-        {{#if showPhotoUpload}}
-            <h4 class="header">{{_ "AddMember.UploadPhotos"}}</h4>
-            {{> photoUploadForm}}
-            {{> uploadedPhotos}}
-        {{else}}
-            <div class="row">
-                {{#autoForm collection="SiriusMembers" id="addMember2" type="method" meteormethod=memberInsert
-                            resetOnSuccess=true}}
+        <div class="row">
+            {{#autoForm collection="SiriusMembers" id="addMember2" type="normal"
+                        resetOnSuccess=true}}
+                <fieldset style="border: none">
+                    <legend class="header">{{afFieldLabelText name="basicInformation"}}</legend>
+                    {{#each afFieldNames name="basicInformation"}}
+                        <div class="{{classOfGroup this}} {{#if afFieldIsInvalid
+                                                                name=this.name}}has-error{{/if}} col s12 m6 l6">
+                            <label class="control-label">{{afFieldLabelText name=this.name}}</label>
+                            {{> afFieldInput name=this.name}}
+                        </div>
+                    {{/each}}
+                </fieldset>
+                <fieldset style="border: none">
+                    <legend class="header">{{afFieldLabelText name="language"}}</legend>
+                    {{#each afFieldNames name="language"}}
+                        <div class="{{classOfGroup this}} {{#if afFieldIsInvalid
+                                                                name=this.name}}has-error{{/if}} col s12 m6 l6">
+                            <label class="control-label">{{afFieldLabelText name=this.name}}</label>
+                            {{> afFieldInput name=this.name}}
+                        </div>
+                    {{/each}}
+                </fieldset>
+                <fieldset style="border: none">
+                    <legend class="header">{{afFieldLabelText name="family"}}</legend>
                     <fieldset style="border: none">
-                        <legend class="header">{{afFieldLabelText name="basicInformation"}}</legend>
-                        {{#each afFieldNames name="basicInformation"}}
+                        <legend>{{afFieldLabelText name="family.father"}}</legend>
+                        {{#each afFieldNames name="family.father"}}
                             <div class="{{classOfGroup this}} {{#if afFieldIsInvalid
                                                                     name=this.name}}has-error{{/if}} col s12 m6 l6">
                                 <label class="control-label">{{afFieldLabelText name=this.name}}</label>
@@ -20,8 +37,8 @@
                         {{/each}}
                     </fieldset>
                     <fieldset style="border: none">
-                        <legend class="header">{{afFieldLabelText name="language"}}</legend>
-                        {{#each afFieldNames name="language"}}
+                        <legend>{{afFieldLabelText name="family.mother"}}</legend>
+                        {{#each afFieldNames name="family.mother"}}
                             <div class="{{classOfGroup this}} {{#if afFieldIsInvalid
                                                                     name=this.name}}has-error{{/if}} col s12 m6 l6">
                                 <label class="control-label">{{afFieldLabelText name=this.name}}</label>
@@ -29,98 +46,75 @@
                             </div>
                         {{/each}}
                     </fieldset>
-                    <fieldset style="border: none">
-                        <legend class="header">{{afFieldLabelText name="family"}}</legend>
-                        <fieldset style="border: none">
-                            <legend>{{afFieldLabelText name="family.father"}}</legend>
-                            {{#each afFieldNames name="family.father"}}
-                                <div class="{{classOfGroup this}} {{#if afFieldIsInvalid
-                                                                        name=this.name}}has-error{{/if}} col s12 m6 l6">
-                                    <label class="control-label">{{afFieldLabelText name=this.name}}</label>
-                                    {{> afFieldInput name=this.name}}
+                    <div class="{{classOfGroup this}} {{#if afFieldIsInvalid
+                                                            name="family.siblings"}}has-error{{/if}} col s12 m6 l6">
+                        <label class="control-label">{{afFieldLabelText name="family.siblings"}}</label>
+                        {{> afFieldInput name="family.siblings"}}
+                    </div>
+                    <div class="{{classOfGroup this}} {{#if afFieldIsInvalid
+                                                            name="family.self"}}has-error{{/if}} col s12 m6 l6">
+                        <label class="control-label">{{afFieldLabelText name="family.self"}}</label>
+                        {{> afFieldInput name="family.self"}}
+                    </div>
+                </fieldset>
+                <!--<fieldset>-->
+                <!--<legend>{{afFieldLabelText name="profile"}}</legend>-->
+                    <!--{{#each afFieldNames name="profile"}}-->
+                <!--<div class="form-group col s12 m6 l6" data-required="true">-->
+                <!--<input type="checkbox" name={{this.name}} class="filled-in"-->
+                <!--id={{this.name}} data-schema-key={{this.name}}>-->
+                <!--<label for={{this.name}} class="control-label">{{afFieldLabelText name=this.name}}</label>-->
+                <!--</div>-->
+                    <!--{{/each}}-->
+                <!--</fieldset>-->
+                <fieldset style="border: none">
+                    <div class="file-field input-field">
+                        <div class="btn">
+                            <span>Photos</span>
+                            <input id="photo-upload-form" type="file" multiple>
+                        </div>
+                        <div class="file-path-wrapper">
+                            <input class="file-path validate" type="text" placeholder={{_
+                                    "AddMember.ChoosePhotos"}}>
+                        </div>
+                    </div>
+                    <div class="row popup-gallery">
+                        {{#if photoDatas.length}}
+                            {{#each photoDatas}}
+                                <div class="col s6 m3 l2 no-padding" style="line-height: 0px;">
+                                    <a href="{{this.data}}" title="{{file.name}}" style="line-height: 0px;">
+                                        <img class="responsive-img" src={{this.data}} alt={{this.name}}>
+                                    </a>
                                 </div>
                             {{/each}}
-                        </fieldset>
-                        <fieldset style="border: none">
-                            <legend>{{afFieldLabelText name="family.mother"}}</legend>
-                            {{#each afFieldNames name="family.mother"}}
-                                <div class="{{classOfGroup this}} {{#if afFieldIsInvalid
-                                                                        name=this.name}}has-error{{/if}} col s12 m6 l6">
-                                    <label class="control-label">{{afFieldLabelText name=this.name}}</label>
-                                    {{> afFieldInput name=this.name}}
-                                </div>
-                            {{/each}}
-                        </fieldset>
-                        <div class="{{classOfGroup this}} {{#if afFieldIsInvalid
-                                                                name="family.siblings"}}has-error{{/if}} col s12 m6 l6">
-                            <label class="control-label">{{afFieldLabelText name="family.siblings"}}</label>
-                            {{> afFieldInput name="family.siblings"}}
-                        </div>
-                        <div class="{{classOfGroup this}} {{#if afFieldIsInvalid
-                                                                name="family.self"}}has-error{{/if}} col s12 m6 l6">
-                            <label class="control-label">{{afFieldLabelText name="family.self"}}</label>
-                            {{> afFieldInput name="family.self"}}
-                        </div>
-                    </fieldset>
-                    <!--<fieldset>-->
-                    <!--<legend>{{afFieldLabelText name="profile"}}</legend>-->
-                        <!--{{#each afFieldNames name="profile"}}-->
-                    <!--<div class="form-group col s12 m6 l6" data-required="true">-->
-                    <!--<input type="checkbox" name={{this.name}} class="filled-in"-->
-                    <!--id={{this.name}} data-schema-key={{this.name}}>-->
-                    <!--<label for={{this.name}} class="control-label">{{afFieldLabelText name=this.name}}</label>-->
-                    <!--</div>-->
-                        <!--{{/each}}-->
-                    <!--</fieldset>-->
-                    <fieldset style="border: none">
-                        <div class="file-field input-field">
-                            <div class="btn">
-                                <span>Photos</span>
-                                <input id="photo-upload-form" type="file" multiple>
+                        {{/if}}
+                    </div>
+                    <div class="{{classOfGroup this}} {{#if afFieldIsInvalid
+                                                            name="videos"}}has-error{{/if}}">
+                        <label class="control-label">{{afFieldLabelText name="videos"}}</label>
+                        {{> afFieldInput name="videos" id="member-video-link"}}
+                    </div>
+                    <div class="col s12 m8 l6">
+                        {{#if videoLink}}
+                            <div class="video-container">
+                                <iframe src={{videoLink}} frameborder="0" allowfullscreen></iframe>
                             </div>
-                            <div class="file-path-wrapper">
-                                <input class="file-path validate" type="text" placeholder={{_
-                                        "AddMember.ChoosePhotos"}}>
-                            </div>
-                        </div>
-                        <div class="row popup-gallery">
-                            {{#if photoDatas.length}}
-                                {{#each photoDatas}}
-                                    <div class="col s6 m3 l2 no-padding" style="line-height: 0px;">
-                                        <a href="{{this.data}}" title="{{file.name}}" style="line-height: 0px;">
-                                            <img class="responsive-img" src={{this.data}} alt={{this.name}}>
-                                        </a>
-                                    </div>
-                                {{/each}}
-                            {{/if}}
-                        </div>
-                        <div class="{{classOfGroup this}} {{#if afFieldIsInvalid
-                                                                name="videos"}}has-error{{/if}}">
-                            <label class="control-label">{{afFieldLabelText name="videos"}}</label>
-                            {{> afFieldInput name="videos" id="member-video-link"}}
-                        </div>
-                        <div class="col s12 m8 l6">
-                            {{#if videoLink}}
-                                <div class="video-container">
-                                    <iframe src={{videoLink}} frameborder="0" allowfullscreen></iframe>
-                                </div>
-                            {{else}}
-                                <h5>No video selected</h5>
-                            {{/if}}
-                        </div>
-
-                    </fieldset>
-
-
-                    <div class="form-group">
-                        <button id="memInsertSubmitBtn" type="submit" class="btn btn-primary">{{_
-                                "AddMember.Insert"}}</button>
-                        <button type="reset" class="btn btn-default">{{_ "AddMember.Reset"}}</button>
+                        {{else}}
+                            <h5>No video selected</h5>
+                        {{/if}}
                     </div>
 
-                {{/autoForm}}
-            </div>
-        {{/if}}
+                </fieldset>
+
+
+                <div class="form-group">
+                    <button id="memInsertSubmitBtn" type="submit" class="btn btn-primary">{{_
+                            "AddMember.Insert"}}</button>
+                    <button type="reset" class="btn btn-default">{{_ "AddMember.Reset"}}</button>
+                </div>
+
+            {{/autoForm}}
+        </div>
     </div>
 </template>
 

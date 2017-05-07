@@ -85,7 +85,7 @@ Template.uploadForm.events({
             if (error) {
               console.log("error uploading");
             } else {
-              // console.log(fileObj);
+              console.log(fileObj);
             }
             template.uploads[file.name].set(false);
           });
