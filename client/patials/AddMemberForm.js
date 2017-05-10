@@ -173,8 +173,6 @@ Template.AddMemberForm.helpers({
 });
 
 Template.AddMemberForm.events({
-  'click #memInsertSubmitBtn': function () {
-  },
   'change #photo-upload-form': function (e, template) {
     if (e.currentTarget.files) {
       let fileList = e.currentTarget.files;

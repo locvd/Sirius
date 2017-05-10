@@ -10,7 +10,7 @@
     "Company": {
       "label": "About Company",
       "Name": "Company Name",
-      "CEOMessage":{
+      "CEOMessage": {
         "label": "CEO's Message",
         "Impression": {
           "label": "Impression About Vietnamese Women",
@@ -23,9 +23,17 @@
           "content-line2": "Meanwhile new tools and ways of thinking are coming in and I do not feel old. Vietnamese women are serious and affectionate and respectful to men. Good women need to have the courage to take a step without being distracted by miscellaneous information, what they can understand at a glance"
         }
       },
-      "WhyChoosingUs":{
+      "WhyChoosingUs": {
         "label": "Why Choosing Us",
-        "content-line1": ""
+        "header1": "Nhân viên trình độ cao và giàu kinh nghiệm",
+        "content1-line1": "Đội ngũ nhân viên chúng tôi gồm nhân viên kinh doanh, các bà mai mối, nhân viên phiên dịch, nhân viên làm thủ tục giấy tờ. Với bề giày gần 10 năm kinh nghiệm trong lĩnh vực giới thiệu tư vấn hôn nhân quốc tế, đội ngũ của chúng tôi dám khẳng định là đội ngũ nhân lực chuyên nghiệp có trình độ cao, có nhiệt tình, phục vụ hết mình vì khách hàng.",
+        "content1-line2": "Từ người đứng đầu cho tới nhân viên cấp thấp nhất cũng đã từng tốt nghiệp đại học, từng trải qua làm việc và đứng vị trí cao ở các công ty bậc nhất Việt nam và có nhiều kinh nghiệm sống, kinh nghiệm trong nghề. Chúng tôi không quản ngại khó khăn vất vả như đi xa hay làm việc nhiều giờ đồng hồ để giới thiệu cho khách hàng những người vợ tương lai ưng ý nhất.",
+        "header2": "Làm việc chuyên nghiệp, tất cả vì khách hàng",
+        "content2-line1": "Chúng tôi có mạng lưới hàng trăm bà mai người hiểu rõ tình hình địa phương và hoàn cảnh gia đình của các cô gái để cung cấp các thông tin dáng tin cậy. Các bà mai ở sẽ tìm kiếm những cô gái trẻ, đẹp, phẩm chất tốt có nhu cầu lấy chồng Nhật và giới thiệu cho nhân viên kinh doanh. Nhân viên kinh doanh sẽ đi tới địa phương đó không quản ngại xa xôi để gặp mặt trực tiếp và tìm hiểu cô gái đó, sau đó sẽ cung cấp dự liệu của cô gái lên website.",
+        "content2-line2": "Khi khách hàng về Việt Nam để gặp mặt các cô gái và chọn vợ, chúng tôi có đội ngũ phiên dịch chuyên nghiệp để hướng dẫn và chăm sóc khách hàng từ sân bay tới khách sạn và trong suốt quá trình ở Việt Nam. Các phiên dịch của chúng tôi đều có kinh nghiệm phiên dịch từ 3 năm trở lên, sẽ hướng dẫn khách hàng để đáp ứng mọi nhu cầu giao tiếp, ăn uống, vui chơi trong quá trình khách hàng ở Việt Nam.",
+        "content2-line3": "Đội ngũ nhân viên chúng tôi sẽ phối hợp hoàn hảo với nhau để sắp xếp những buổi gặp mặt thoải mái, thân tình nhất giữa khách hàng và các cô gái và gia đình của họ. Sau buổi gặp gỡ, ăn uống, hai bên sẽ có những hiểu biết nhất định về nhau, từ đó xây dựng lòng tin và tình cảm.",
+        "header3": "Dịch vụ trọn gói, nhanh chóng và tiết kiệm nhất",
+        "content3-line1": "Ngoài ra, đội ngũ nhân viên chúng tôi còn có thể làm thủ tục nhanh chóng để giúp khách hàng hoàn thành thủ tục kết hôn nhanh nhất có thể chỉ trong vài ngày khách hàng ở Việt Nam. Ví dụ như nếu khách hàng cần giấy khám sức khoẻ để làm thủ tục kết hôn, thì chúng tôi có thể sắp xếp cho bạn khám nhanh nhất tại bệnh viện tin cậy để lấy kết quả ngay sau đó chứ không phải chờ bất cứ ngày nào. Khách hàng cũng không phải tự đi nộp hồ sơ đăng kí kết hôn, mà mọi giấy tờ sẽ được chúng tôi tư vấn và nộp thay. Các dịch vụ kết hôn trọn gói này được chúng tôi cung cấp nhanh chóng, đúng hẹn và khách hàng không phải trả thêm bất cứ khoản phí nào không hợp lệ."
       },
       "Service": {
         "label": "Service",
@@ -61,7 +69,21 @@
         "Establishment": "December 2012"
       },
       "OurTeam": {
-        "label": "Our Team"
+        "label": "Our Team",
+        "VietnameseRepresentative": "Vietnamese Branch Representative",
+        "CEO": "CEO",
+        "Hobbies": "Hobbies",
+        "CEOHobbies": "Travel, watching sports, watching drama",
+        "VRHobbies":"Karaoke, travel, motobike",
+        "Residence":"Residence",
+        "CEOResidence": "Saitama Prefecture",
+        "VRResidence": "Can Tho - Vietnam",
+        "WorkExperiences": "Work Experiences",
+        "CEOWorkExperienceTime1": "1977 - 1991",
+        "CEOWorkExperienceContent1": "Salary man",
+        "CEOWorkExperienceTime2": "1991 - now",
+        "CEOWorkExperienceContent2": "Bridal consulting (Sirius)"
+
       }
     }
   },
