@@ -89,9 +89,41 @@
   "System": {
     "label": "Hệ Thống",
     "Flow": "Quy Trình",
-    "Interview": "Gặp Mặt",
-    "WeddingTour": "Về Cưới",
-    "CompanyInfo": "Thông tin công ty"
+    "Interview": {
+     "label": "về Gặp Mặt"
+    },
+    "WeddingTour": {
+     "label": "Về Cưới"
+    },
+    "CompanyInfo": "Thông tin công ty",
+    "InterviewApply": {
+      "label": "Đăng ký gặp mặt"
+    },
+    "ConfirmAvailability": {
+      "label": "Xác nhận nữ"
+    },
+    "MarriageRegistration": {
+      "label": "Đăng ký kết hôn"
+    },
+    "StartSchool": {
+      "label": "Nhập học",
+      "ContinueSchool": "Tiếp tục học"
+    },
+    "ResidenceStatus": {
+      "label": "Xin tư cách lưu trú",
+      "GotCOE": "Có cư cách lưu trú",
+      "VisaApplication": "Xin Visa"
+    },
+    "PickUp": {
+      "label": "Về đón vợ",
+      "GoToJapan": "Sang Nhật"
+    },
+    "DocumentPreparation": {
+      "label": "Chuẩn bị giấy tờ"
+    },
+    "JapanSide": "Phía Nhật",
+    "VietnamSide": "Phía Việt",
+    "ReadMore": "Đọc thêm"
   },
   "Members": "Hội Viên",
   "Banner": "Tư vấn Hôn nhân Nhật Bản",

@@ -89,9 +89,41 @@
   "System": {
     "label": "システム",
     "Flow": "来日までの流れ",
-    "Interview": "お見合い",
-    "WeddingTour": "結婚渡航",
-    "CompanyInfo": "当社概要情報"
+    "Interview": {
+     "label": "お見合い渡航"
+    },
+    "WeddingTour": {
+     "label": "結婚渡航"
+    },
+    "CompanyInfo": "当社概要情報",
+    "InterviewApply": {
+      "label": "お見合いの申請"
+    },
+    "ConfirmAvailability": {
+      "label": "お見合い打診"
+    },
+    "MarriageRegistration": {
+      "label": "婚姻届け手続き"
+    },
+    "StartSchool": {
+      "label": "花嫁学校入校",
+      "ContinueSchool": "花嫁学校続き"
+    },
+    "ResidenceStatus": {
+      "label": "入籍・在留資格認定申請",
+      "GotCOE": "在留資格交付",
+      "VisaApplication": "ビザ申請"
+    },
+    "PickUp": {
+      "label": "迎え渡航",
+      "GoToJapan": "来日"
+    },
+    "DocumentPreparation": {
+      "label": "書類準備"
+    },
+    "JapanSide": "日本側",
+    "VietnamSide": "ベトナム側",
+    "ReadMore": "詳細"
   },
   "Members": "会員一覧",
   "Banner": "ベトナム国際結婚紹介",

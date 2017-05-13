@@ -91,5 +91,14 @@ FlowRouter.route('/upload', {
   }
 });
 
+FlowRouter.route('/system-flow', {
+  name: 'Time Line',
+  action() {
+    BlazeLayout.render('MainLayout', {
+      main: 'TimeLine'
+    });
+  }
+});
+
 AccountsTemplates.configureRoute('signIn');
 // AccountsTemplates.configureRoute('signUp');

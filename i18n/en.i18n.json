@@ -90,9 +90,41 @@
   "System": {
     "label": "System",
     "Flow": "Service Flow",
-    "Interview": "Interview",
-    "WeddingTour": "Wedding Tour",
-    "CompanyInfo": "Company Information"
+    "Interview": {
+     "label": "Interview Tour"
+    },
+    "WeddingTour": {
+     "label": "Wedding Tour"
+    },
+    "CompanyInfo": "Company Information",
+    "InterviewApply": {
+      "label": "Apply for Interview"
+    },
+    "ConfirmAvailability": {
+      "label": "Confirm Availability"
+    },
+    "MarriageRegistration": {
+      "label": "Marriage Registration"
+    },
+    "StartSchool": {
+      "label": "Start School",
+      "ContinueSchool": "Continue School"
+    },
+    "ResidenceStatus": {
+      "label": "Apply for COE",
+      "GotCOE": "Got COE",
+      "VisaApplication": "Visa Application"
+    },
+    "PickUp": {
+      "label": "Pick-up Tour",
+      "GoToJapan": "Go to Japan"
+    },
+    "DocumentPreparation": {
+      "label": "Document Preparation"
+    },
+    "JapanSide": "Japan",
+    "VietnamSide": "Vietnam",
+    "ReadMore": "Read More"
   },
   "Members": "Members",
   "Banner": "Vietnam - Japan Bridal Consulting",
