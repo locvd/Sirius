@@ -10,7 +10,7 @@
     "Company": {
       "label": "Công Ty",
       "Name": "Tên Công Ty",
-      "CEOMessage":{
+      "CEOMessage": {
         "label": "Lời nhắn từ giám đốc",
         "Impression": {
           "label": "Ấn tượng về phụ nữ Việt Nam",
@@ -23,7 +23,7 @@
           "content-line2": "Mặt khác tôi không cảm thấy tuổi đã đến cũng chứa các công cụ mới và cách suy nghĩ. Phụ nữ Việt Nam là nghiêm trọng và yêu thương, bạn sẽ Takashi Igaa với nam giới. Những phụ nữ tốt có thể được nhìn thấy trong nháy mắt, bạn phải có can đảm để có một bước mà không bị ảnh hưởng bởi thông tin linh tinh"
         }
       },
-      "WhyChoosingUs":{
+      "WhyChoosingUs": {
         "label": "Tại Sao Chọn Chúng Tôi",
         "header1": "Nhân viên trình độ cao và giàu kinh nghiệm",
         "content1-line1": "Đội ngũ nhân viên chúng tôi gồm nhân viên kinh doanh, các bà mai mối, nhân viên phiên dịch, nhân viên làm thủ tục giấy tờ. Với bề giày gần 10 năm kinh nghiệm trong lĩnh vực giới thiệu tư vấn hôn nhân quốc tế, đội ngũ của chúng tôi dám khẳng định là đội ngũ nhân lực chuyên nghiệp có trình độ cao, có nhiệt tình, phục vụ hết mình vì khách hàng.",
@@ -32,7 +32,7 @@
         "content2-line1": "Chúng tôi có mạng lưới hàng trăm bà mai người hiểu rõ tình hình địa phương và hoàn cảnh gia đình của các cô gái để cung cấp các thông tin dáng tin cậy. Các bà mai ở sẽ tìm kiếm những cô gái trẻ, đẹp, phẩm chất tốt có nhu cầu lấy chồng Nhật và giới thiệu cho nhân viên kinh doanh. Nhân viên kinh doanh sẽ đi tới địa phương đó không quản ngại xa xôi để gặp mặt trực tiếp và tìm hiểu cô gái đó, sau đó sẽ cung cấp dự liệu của cô gái lên website.",
         "content2-line2": "Khi khách hàng về Việt Nam để gặp mặt các cô gái và chọn vợ, chúng tôi có đội ngũ phiên dịch chuyên nghiệp để hướng dẫn và chăm sóc khách hàng từ sân bay tới khách sạn và trong suốt quá trình ở Việt Nam. Các phiên dịch của chúng tôi đều có kinh nghiệm phiên dịch từ 3 năm trở lên, sẽ hướng dẫn khách hàng để đáp ứng mọi nhu cầu giao tiếp, ăn uống, vui chơi trong quá trình khách hàng ở Việt Nam.",
         "content2-line3": "Đội ngũ nhân viên chúng tôi sẽ phối hợp hoàn hảo với nhau để sắp xếp những buổi gặp mặt thoải mái, thân tình nhất giữa khách hàng và các cô gái và gia đình của họ. Sau buổi gặp gỡ, ăn uống, hai bên sẽ có những hiểu biết nhất định về nhau, từ đó xây dựng lòng tin và tình cảm.",
-        "header3":"Dịch vụ trọn gói, nhanh chóng và tiết kiệm nhất",
+        "header3": "Dịch vụ trọn gói, nhanh chóng và tiết kiệm nhất",
         "content3-line1": "Ngoài ra, đội ngũ nhân viên chúng tôi còn có thể làm thủ tục nhanh chóng để giúp khách hàng hoàn thành thủ tục kết hôn nhanh nhất có thể chỉ trong vài ngày khách hàng ở Việt Nam. Ví dụ như nếu khách hàng cần giấy khám sức khoẻ để làm thủ tục kết hôn, thì chúng tôi có thể sắp xếp cho bạn khám nhanh nhất tại bệnh viện tin cậy để lấy kết quả ngay sau đó chứ không phải chờ bất cứ ngày nào. Khách hàng cũng không phải tự đi nộp hồ sơ đăng kí kết hôn, mà mọi giấy tờ sẽ được chúng tôi tư vấn và nộp thay. Các dịch vụ kết hôn trọn gói này được chúng tôi cung cấp nhanh chóng, đúng hẹn và khách hàng không phải trả thêm bất cứ khoản phí nào không hợp lệ."
       },
       "Service": {
@@ -74,8 +74,8 @@
         "CEO": "Giám Đốc",
         "Hobbies": "Sở thích",
         "CEOHobbies": "Du lịch, Xem thể thao, Xem phim truyền hình",
-        "VRHobbies":"Karaoke, Du lịch, Xe máy",
-        "Residence":"Nơi ở hiện tại",
+        "VRHobbies": "Karaoke, Du lịch, Xe máy",
+        "Residence": "Nơi ở hiện tại",
         "CEOResidence": "Tỉnh Saitama - Nhật Bản",
         "VRResidence": "Cần Thơ - Việt Nam",
         "WorkExperiences": "Kinh nghiệm",
@@ -89,11 +89,65 @@
   "System": {
     "label": "Hệ Thống",
     "Flow": "Quy Trình",
+    "Pricing": {
+      "label": "Chi phí",
+      "No": "STT",
+      "Item": "Mục",
+      "Desc": "Nội dung",
+      "OutOfService": "Không bao gồm",
+      "Price": "Đơn giá (vạn yên)",
+      "Note": "Ghi chú",
+      "Membership": {
+       "label": "Phí gia nhập"
+      },
+      "InterviewTour": {
+       "label": "Về gặp mặt",
+        "content": {
+          "line1": "Vé máy bay 2 chiều Nhật Bản - Việt Nam cho khách hàng và nhân viên đi kèm",
+          "line2": "Chi phí cho 2 đêm 3 ngày tại việt nam: phí giao thông, ăn uống, khách sạn cho khách hàng, nhân viên đi kèm, nhân viên tại Việt Nam và phiên dịch",
+          "line3": "Chi phí phiên dịch cho 3 ngày"
+        },
+        "outOfService": {
+          "line1": "Chi phí giao thông đi lại tơi sân bay tại Nhật Bản",
+          "line2": "Quà mua tại Việt Nam",
+          "line3": "Các chi phí giải trí khác (đi bar, karaoke)"
+        },
+        "dueDate": "Trước khi về gặp mặt"
+      },
+      "EngagementFee": {
+       "label": "Phí hôn ước",
+        "content": {
+          "line1": "Đặt cọc cho việc hôn ước",
+          "line2": "Chi phí thành công của chúng tôi khi ôn ước được thành công"
+        },
+        "outOfService": {
+          "line1": "Phí chuẩn bị cho lễ cưới",
+          "line2": "Các chi phí khác: vòng cổ, nhẫn đeo tay, nhẫn tai"
+        },
+        "dueDate": "Trong lần về gặp mặt"
+      },
+      "SuccessFee": {
+       "label": "Phí thành hôn",
+        "content": {
+          "line1": "Chi phí thành công cho chúng tôi cho việc kết hôn"
+        },
+        "outOfService": {
+          "line1": "Chi phí phát sinh từ lần về thứ 2"
+        },
+        "dueDate": {
+          "line1": "Sau khi lấy giấy chứng nhận kết hôn: 59 vạn yên",
+          "line2": "Sau khi nữ sang được nhật: 59 vạn yên"
+        }
+      },
+      "MarriageProcedure": {
+       "label": "Chi phí làm thủ tục kết hôn"
+      }
+    },
     "Interview": {
-     "label": "về Gặp Mặt"
+      "label": "về Gặp Mặt"
     },
     "WeddingTour": {
-     "label": "Về Cưới"
+      "label": "Về Cưới"
     },
     "CompanyInfo": "Thông tin công ty",
     "InterviewApply": {

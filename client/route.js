@@ -100,5 +100,14 @@ FlowRouter.route('/system-flow', {
   }
 });
 
+FlowRouter.route('/pricing', {
+  name: 'Pricing',
+  action() {
+    BlazeLayout.render('MainLayout', {
+      main: 'Pricing'
+    });
+  }
+});
+
 AccountsTemplates.configureRoute('signIn');
 // AccountsTemplates.configureRoute('signUp');

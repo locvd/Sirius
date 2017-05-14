@@ -74,8 +74,8 @@
         "CEO": "CEO",
         "Hobbies": "Hobbies",
         "CEOHobbies": "Travel, watching sports, watching drama",
-        "VRHobbies":"Karaoke, travel, motobike",
-        "Residence":"Residence",
+        "VRHobbies": "Karaoke, travel, motobike",
+        "Residence": "Residence",
         "CEOResidence": "Saitama Prefecture",
         "VRResidence": "Can Tho - Vietnam",
         "WorkExperiences": "Work Experiences",
@@ -83,18 +83,71 @@
         "CEOWorkExperienceContent1": "Salary man",
         "CEOWorkExperienceTime2": "1991 - now",
         "CEOWorkExperienceContent2": "Bridal consulting (Sirius)"
-
       }
     }
   },
   "System": {
     "label": "System",
     "Flow": "Service Flow",
+    "Pricing": {
+      "label": "Pricing",
+      "No": "No",
+      "Item": "Item",
+      "Desc": "Description",
+      "OutOfService": "Not included",
+      "Price": "Price (ten thousand yen)",
+      "Note": "Note",
+      "Membership": {
+        "label": "Membership"
+      },
+      "InterviewTour": {
+        "label": "Interview Tour",
+        "content": {
+          "line1": "Japan - Vietnam's two ways air ticket (Cutomer and accompanying staff)",
+          "line2": "Up to 2 nights, 3 days expense in Vietnam: Transportation fee, hotel charges, meal (Customer, accompanying staff, staff in Vietnam and interpreter)",
+          "line3": "Interpreter fee for up to 2 nights and 3 days"
+        },
+        "outOfService": {
+          "line1": "Two ways transportation fee to domestic airport",
+          "line2": "The gift bought in Vietnam",
+          "line3": "Other entertainment fee in Vietname (bar, karaoke, etc)"
+        },
+        "dueDate": "Before the interview tour"
+      },
+      "EngagementFee": {
+        "label": "Engagement Fee",
+        "content": {
+          "line1": "To guarantee the availability of bride",
+          "line2": "Out commission for the success of engagement"
+        },
+        "outOfService": {
+          "line1": "The preparation of wedding ceremony",
+          "line2": "Other expense: necklace, ring"
+        },
+        "dueDate": "During the interview tour"
+      },
+      "SuccessFee": {
+        "label": "Success Fee",
+        "content": {
+          "line1": "Our commission for the success of marriage"
+        },
+        "outOfService": {
+          "line1": "The expense from the second tour (wedding tour)"
+        },
+        "dueDate": {
+          "line1": "After receiving the marriage certification: 59",
+          "line2": "After coming to Japan: 59"
+        }
+      },
+      "MarriageProcedure": {
+        "label": "Marriage procedure consignment"
+      }
+    },
     "Interview": {
-     "label": "Interview Tour"
+      "label": "Interview Tour"
     },
     "WeddingTour": {
-     "label": "Wedding Tour"
+      "label": "Wedding Tour"
     },
     "CompanyInfo": "Company Information",
     "InterviewApply": {

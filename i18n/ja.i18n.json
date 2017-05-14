@@ -10,7 +10,7 @@
     "Company": {
       "label": "会社概要",
       "Name": "社名",
-      "CEOMessage":{
+      "CEOMessage": {
         "label": "社長の一言",
         "Impression": {
           "label": "ベトナム女性の印象",
@@ -23,7 +23,7 @@
           "content-line2": "一方新しいツールや 考え方も入って来ていて古さを感じません。ベトナム女性は真面目で愛情深く、男性への敬 意があ ります。いい女性は一目で分かるもの、 雑多な情報に振り回されずに 一歩を踏み出す勇気が必要です"
         }
       },
-      "WhyChoosingUs":{
+      "WhyChoosingUs": {
         "label": "何故当社を選ぶか？",
         "header1": "優秀かつ経験豊富なスタッフ",
         "content1-line1": "当社のスタッフは営業担当者、仲人、通訳者、結婚手続き等を処理する事務員から構成されています。国際結婚のコンサル業界で10年近くの経験を持つ我々のスタッフは知識、熱い情熱心をもち、顧客のために働きます。",
@@ -74,8 +74,8 @@
         "CEO": "社長",
         "Hobbies": "趣味",
         "CEOHobbies": "旅行・スポーツ観戦・ドラマ鑑賞",
-        "VRHobbies":"カラオケ・旅行・バイク",
-        "Residence":"居住地",
+        "VRHobbies": "カラオケ・旅行・バイク",
+        "Residence": "居住地",
         "CEOResidence": "埼玉県",
         "VRResidence": "ベトナムのカントー省",
         "WorkExperiences": "職歴",
@@ -89,11 +89,65 @@
   "System": {
     "label": "システム",
     "Flow": "来日までの流れ",
+    "Pricing": {
+      "label": "料金システム",
+      "No": "番号",
+      "Item": "項目",
+      "Desc": "内容",
+      "OutOfService": "サービス外",
+      "Price": "金額（万円）",
+      "Note": "予備",
+      "Membership": {
+       "label": "入会金"
+      },
+      "InterviewTour": {
+       "label": "お見合い渡航",
+        "content": {
+          "line1": "日本・ベトナムの往復航空券（顧客と同行スタッフの分）",
+          "line2": "２泊３日までの現地滞在費用：交通費、ホテル代、食事代（顧客、同行スタッフ、現地スタッフ、通訳者の分）",
+          "line3": "２泊３日までの通訳代"
+        },
+        "outOfService": {
+          "line1": "国内空港までの往復交通費",
+          "line2": "現地で購入するお土産",
+          "line3": "現地で発生するエンタテインメント活動（カラオケ、バー等）"
+        },
+        "dueDate": "お見合い渡航の前"
+      },
+      "EngagementFee": {
+       "label": "婚約金",
+        "content": {
+          "line1": "婚約者の在籍の保証（下紹介者報酬）",
+          "line2": "当社婚約時の報酬"
+        },
+        "outOfService": {
+          "line1": "結婚式の準備にかかる費用",
+          "line2": "３点セット購入費用：ネックレス、指輪、エアリング"
+        },
+        "dueDate": "お見合い渡航中"
+      },
+      "SuccessFee": {
+       "label": "成婚料",
+        "content": {
+          "line1": "当社成婚時の報酬"
+        },
+        "outOfService": {
+          "line1": "２回目以降の渡航費用"
+        },
+        "dueDate": {
+          "line1": "婚姻証明書受け取り後：５９万円",
+          "line2": "来日後：残額：５９万円"
+        }
+      },
+      "MarriageProcedure": {
+       "label": "婚姻手続き委託料"
+      }
+    },
     "Interview": {
-     "label": "お見合い渡航"
+      "label": "お見合い渡航"
     },
     "WeddingTour": {
-     "label": "結婚渡航"
+      "label": "結婚渡航"
     },
     "CompanyInfo": "当社概要情報",
     "InterviewApply": {
@@ -166,7 +220,7 @@
         "4": "経理",
         "5": "学生",
         "6": "自営業",
-        "7":"ワーカー",
+        "7": "ワーカー",
         "8": "農家",
         "9": "定年"
       },
@@ -234,7 +288,6 @@
     "Reset": "リセット",
     "UploadPhotos": "画像のアップロード",
     "ChoosePhotos": "一つ以上の画像を選んでください"
-
   },
   "UserLogin": {
     "Register": "登録"

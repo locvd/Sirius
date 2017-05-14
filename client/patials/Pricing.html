@@ -1,0 +1,112 @@
+<template name="Pricing">
+    <section id="sirius-expense">
+        <div class="container">
+            <div class="invoice-table">
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        <table class="striped">
+                            <thead>
+                            <tr>
+                                <th data-field="no">{{_ "System.Pricing.No"}}</th>
+                                <th data-field="item">{{_ "System.Pricing.Item"}}</th>
+                                <th data-field="desc">{{_ "System.Pricing.Desc"}}</th>
+                                <th data-field="outofservice">{{_ "System.Pricing.OutOfService"}}</th>
+                                <th data-field="price">{{_ "System.Pricing.Price"}}</th>
+                                <th data-field="note">{{_ "System.Pricing.Note"}}</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>1.</td>
+                                <td>{{_ "System.Pricing.Membership.label"}}</td>
+                                <td></td>
+                                <td></td>
+                                <td>0</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>2.</td>
+                                <td>{{_ "System.Pricing.InterviewTour.label"}}</td>
+                                <td>
+                                    <ul>
+                                        <li>{{_ "System.Pricing.InterviewTour.content.line1"}}</li>
+                                        <li>{{_ "System.Pricing.InterviewTour.content.line2"}}</li>
+                                        <li>{{_ "System.Pricing.InterviewTour.content.line3"}}</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>{{_ "System.Pricing.InterviewTour.outOfService.line1"}}</li>
+                                        <li>{{_ "System.Pricing.InterviewTour.outOfService.line2"}}</li>
+                                        <li>{{_ "System.Pricing.InterviewTour.outOfService.line3"}}</li>
+                                    </ul>
+                                </td>
+                                <td>30</td>
+                                <td>Note</td>
+                            </tr>
+                            <tr>
+                                <td>3.</td>
+                                <td>{{_ "System.Pricing.EngagementFee.label"}}</td>
+                                <td>
+                                    <ul>
+                                        <li>{{_ "System.Pricing.EngagementFee.content.line1"}}</li>
+                                        <li>{{_ "System.Pricing.EngagementFee.content.line2"}}</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>{{_ "System.Pricing.EngagementFee.outOfService.line1"}}</li>
+                                        <li>{{_ "System.Pricing.EngagementFee.outOfService.line2"}}</li>
+                                    </ul>
+                                </td>
+                                <td>30</td>
+                                <td>Note</td>
+                            </tr>
+                            <tr>
+                                <td>4.</td>
+                                <td>{{_ "System.Pricing.SuccessFee.label"}}</td>
+                                <td>
+                                    <ul>
+                                        <li>{{_ "System.Pricing.SuccessFee.content.line1"}}</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <ul>
+                                        <li>{{_ "System.Pricing.SuccessFee.outOfService.line1"}}</li>
+                                    </ul>
+                                </td>
+                                <td>118</td>
+                                <td>Note</td>
+                            </tr>
+                            <tr>
+                                <td>5.</td>
+                                <td>{{_ "System.Pricing.MarriageProcedure.label"}}</td>
+                                <td>Desc</td>
+                                <td>Outofservice</td>
+                                <td>15</td>
+                                <td>Note</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"></td>
+                                <td>Sub Total:</td>
+                                <td>$ 5,290.00</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"></td>
+                                <td>Service Tax</td>
+                                <td>11.00%</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"></td>
+                                <td class="cyan white-text">Grand Total</td>
+                                <td class="cyan strong white-text">$ 5,871.90</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</template>
