@@ -97,14 +97,19 @@
       "OutOfService": "Không bao gồm",
       "Price": "Đơn giá (vạn yên)",
       "Note": "Ghi chú",
+      "NotRefundable": "Không trả lại được",
+      "OfficialExpense": "Lệ Phí Chính Kỳ",
+      "OptionalExpense": "Các Lệ Phí Khác",
+      "GrandTotal": "Tổng (Gồm thuế)",
+      "Self-expense": "Tự chi",
       "Membership": {
-       "label": "Phí gia nhập"
+        "label": "Phí gia nhập"
       },
       "InterviewTour": {
-       "label": "Về gặp mặt",
+        "label": "Về gặp mặt",
         "content": {
           "line1": "Vé máy bay 2 chiều Nhật Bản - Việt Nam cho khách hàng và nhân viên đi kèm",
-          "line2": "Chi phí cho 2 đêm 3 ngày tại việt nam: phí giao thông, ăn uống, khách sạn cho khách hàng, nhân viên đi kèm, nhân viên tại Việt Nam và phiên dịch",
+          "line2": "Chi phí cho 2 đêm 3 ngày tại việt nam",
           "line3": "Chi phí phiên dịch cho 3 ngày"
         },
         "outOfService": {
@@ -115,7 +120,7 @@
         "dueDate": "Trước khi về gặp mặt"
       },
       "EngagementFee": {
-       "label": "Phí hôn ước",
+        "label": "Phí hôn ước",
         "content": {
           "line1": "Đặt cọc cho việc hôn ước",
           "line2": "Chi phí thành công của chúng tôi khi ôn ước được thành công"
@@ -127,7 +132,7 @@
         "dueDate": "Trong lần về gặp mặt"
       },
       "SuccessFee": {
-       "label": "Phí thành hôn",
+        "label": "Phí thành hôn",
         "content": {
           "line1": "Chi phí thành công cho chúng tôi cho việc kết hôn"
         },
@@ -140,7 +145,44 @@
         }
       },
       "MarriageProcedure": {
-       "label": "Chi phí làm thủ tục kết hôn"
+        "label": "Chi phí làm thủ tục kết hôn",
+        "content": {
+          "line1": "Phí dịch và công chứng giấy tờ khách hàng",
+          "line2": "Phí khám thần kinh",
+          "line3": "Phí cho nhân viên tư pháp",
+          "line4": "Các phí khác tại các cơ quan ở Việt Nam"
+        },
+        "outOfService": {
+          "line1": "Các chi phí tại các cơ quan nhà nước Nhật và ĐSQ Việt nam"
+        },
+        "dueDate": {
+          "line1": "Về Cưới"
+        }
+      },
+      "BetrothalMoney": {
+        "label": "Tiền Nạp Tài",
+        "content": {
+          "line1": "Tiền Nạp Tài"
+        },
+        "outOfService": {
+          "line1": "Vòng cổ, khuyên tai, nhẫn tay"
+        },
+        "dueDate": {
+          "line1": "Đưa 15 vạn cho nhà gái trong lễ cưới",
+          "line2": "Đưa 15 vạn còn lại khi  cô dâu đến Nhật"
+        }
+      },
+      "WeddingRing": {
+        "label": "Nhẫn cưới",
+        "content": {
+          "line1": "Vòng cổ, khuyên tai, nhẫn cưới"
+        },
+        "outOfService": {
+          "line1": "Chi phí chuẩn bị đám cưới"
+        },
+        "dueDate": {
+          "line1": "Tự mua"
+        }
       }
     },
     "Interview": {

@@ -97,6 +97,11 @@
       "OutOfService": "Not included",
       "Price": "Price (ten thousand yen)",
       "Note": "Note",
+      "NotRefundable": "Not Refundable",
+      "OfficialExpense": "Official Expense",
+      "OptionalExpense": "Optional Expense",
+      "GrandTotal": "Grand Total (Tax Included)",
+      "Self-expense": "Self Expense",
       "Membership": {
         "label": "Membership"
       },
@@ -104,7 +109,7 @@
         "label": "Interview Tour",
         "content": {
           "line1": "Japan - Vietnam's two ways air ticket (Cutomer and accompanying staff)",
-          "line2": "Up to 2 nights, 3 days expense in Vietnam: Transportation fee, hotel charges, meal (Customer, accompanying staff, staff in Vietnam and interpreter)",
+          "line2": "Up to 2 nights, 3 days expense in Vietnam",
           "line3": "Interpreter fee for up to 2 nights and 3 days"
         },
         "outOfService": {
@@ -140,7 +145,44 @@
         }
       },
       "MarriageProcedure": {
-        "label": "Marriage procedure consignment"
+        "label": "Marriage procedure consignment",
+        "content": {
+          "line1": "Translation and notarization of customer's documents",
+          "line2": "Nerve inspection fee",
+          "line3": "Judicial clerk charge",
+          "line4": "Other expense at Vietnamese bureaucracy"
+        },
+        "outOfService": {
+          "line1": "Expense at Japanese bureaucracy and Vietnamese embassy"
+        },
+        "dueDate": {
+          "line1": "Wedding Tour"
+        }
+      },
+      "BetrothalMoney": {
+        "label": "Betrothal Money",
+        "content": {
+          "line1": "Betrothal Money"
+        },
+        "outOfService": {
+          "line1": "Necklace, ring expense"
+        },
+        "dueDate": {
+          "line1": "150 thoudsand yen during wedding tour",
+          "line2": "The rest 150 thoudsand yen during pick-up tour"
+        }
+      },
+      "WeddingRing": {
+        "label": "Wedding Present",
+        "content": {
+          "line1": "Necklace, earring, wedding ring"
+        },
+        "outOfService": {
+          "line1": "Wedding preparation expense"
+        },
+        "dueDate": {
+          "line1": "Self-bought"
+        }
       }
     },
     "Interview": {

@@ -97,14 +97,19 @@
       "OutOfService": "サービス外",
       "Price": "金額（万円）",
       "Note": "予備",
+      "NotRefundable": "返金不可能",
+      "OfficialExpense": "正規費用",
+      "OptionalExpense": "他の費用",
+      "GrandTotal": "合計（税込）",
+      "Self-expense": "実費",
       "Membership": {
-       "label": "入会金"
+        "label": "入会金"
       },
       "InterviewTour": {
-       "label": "お見合い渡航",
+        "label": "お見合い渡航",
         "content": {
           "line1": "日本・ベトナムの往復航空券（顧客と同行スタッフの分）",
-          "line2": "２泊３日までの現地滞在費用：交通費、ホテル代、食事代（顧客、同行スタッフ、現地スタッフ、通訳者の分）",
+          "line2": "２泊３日までの現地滞在費用",
           "line3": "２泊３日までの通訳代"
         },
         "outOfService": {
@@ -115,7 +120,7 @@
         "dueDate": "お見合い渡航の前"
       },
       "EngagementFee": {
-       "label": "婚約金",
+        "label": "婚約金",
         "content": {
           "line1": "婚約者の在籍の保証（下紹介者報酬）",
           "line2": "当社婚約時の報酬"
@@ -127,7 +132,7 @@
         "dueDate": "お見合い渡航中"
       },
       "SuccessFee": {
-       "label": "成婚料",
+        "label": "成婚料",
         "content": {
           "line1": "当社成婚時の報酬"
         },
@@ -140,7 +145,44 @@
         }
       },
       "MarriageProcedure": {
-       "label": "婚姻手続き委託料"
+        "label": "婚姻手続き委託料",
+        "content": {
+          "line1": "男性書類の翻訳・公印取得",
+          "line2": "神経診断費用",
+          "line3": "専門司法書士への委託料",
+          "line4": "ベトナムの役所で発生する費用"
+        },
+        "outOfService": {
+          "line1": "日本の役所やベトナム大使館で発生する費用"
+        },
+        "dueDate": {
+          "line1": "結婚渡航"
+        }
+      },
+      "BetrothalMoney": {
+        "label": "結納金",
+        "content": {
+          "line1": "結納金"
+        },
+        "outOfService": {
+          "line1": "ネックレス、エアリング、指輪"
+        },
+        "dueDate": {
+          "line1": "結婚式に１５万円",
+          "line2": "来日渡航に残額の１５万円"
+        }
+      },
+      "WeddingRing": {
+        "label": "結婚三点セット",
+        "content": {
+          "line1": "ネックレス、エアリング、指輪"
+        },
+        "outOfService": {
+          "line1": "結婚式準備金"
+        },
+        "dueDate": {
+          "line1": "自分で購入"
+        }
       }
     },
     "Interview": {
