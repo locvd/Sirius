@@ -102,6 +102,7 @@
       "OptionalExpense": "他の費用",
       "GrandTotal": "合計（税込）",
       "Self-expense": "実費",
+      "DueDate": "締め切り",
       "Membership": {
         "label": "入会金"
       },
@@ -183,27 +184,62 @@
         "dueDate": {
           "line1": "自分で購入"
         }
+      },
+      "WeddingCeremonySupport": {
+        "label": "結婚式サポート",
+        "content": {
+          "line1": "結婚式用の果物盛り合わせ",
+          "line2": "記念写真アルバム",
+          "line3": "花嫁のメーク"
+        },
+        "outOfService": {
+          "line1": "他の結婚式費用"
+        },
+        "dueDate": {
+          "line1": "結婚渡航"
+        }
+      },
+      "SecondTourOrAfter": {
+        "label": "二回目以降の渡航費用",
+        "content": {
+          "line1": "往復航空券",
+          "line2": "国内交通費",
+          "line3": "現地滞在費用",
+          "line4": "通訳代"
+        },
+        "outOfService": {
+          "line1": "結婚三点セット",
+          "line2": "結婚式準備金",
+          "line3": "結納金"
+        }
       }
     },
     "Interview": {
-      "label": "お見合い渡航"
+      "label": "お見合い渡航",
+      "line1": "通常２泊３日のツアーで１０名以下とのお見合いをして頂きます。決まった女性の実家訪問をし、神経検査も行います。"
     },
     "WeddingTour": {
-      "label": "結婚渡航"
+      "label": "結婚渡航",
+      "line1": "結婚証明書が出来たらお客さんがベトナムに行って結婚式を挙げます。結婚渡航で結婚証明書も受け取ります。"
     },
     "CompanyInfo": "当社概要情報",
     "InterviewApply": {
-      "label": "お見合いの申請"
+      "label": "お見合いの申請",
+      "line1": "本サイトでの<a href=\"__intApply__\">お見合い申請ボタン</a>を押して頂くか<a href=\"mailto:__mailAddr__\">メール</a>にてお見合い申請の旨をお知らせください"
     },
     "ConfirmAvailability": {
-      "label": "お見合い打診"
+      "label": "お見合い打診",
+      "line1": "希望女性に打診・在籍確認し、お見合い可能な女性一覧を報告します。"
     },
     "MarriageRegistration": {
-      "label": "婚姻届け手続き"
+      "label": "婚姻届け手続き",
+      "line1": "日本からの書類を受け取ったら、現地で我々の指定した司法書士を通して翻訳・合法化をしてから早速婚姻届けに取り掛かります。"
     },
     "StartSchool": {
       "label": "花嫁学校入校",
-      "ContinueSchool": "花嫁学校続き"
+      "line1": "婚約が決まった後、花嫁は当社運営している学校に入校して頂きます。他の花嫁と一緒に日々日本語を覚えながら日本のことについて学んで頂きます。",
+      "ContinueSchool": "花嫁学校続き",
+      "CSLine1": "結婚式の後、奥さんは花嫁学校を続けます。日本語で簡単な挨拶や会話ができます。"
     },
     "ResidenceStatus": {
       "label": "入籍・在留資格認定申請",
@@ -215,7 +251,8 @@
       "GoToJapan": "来日"
     },
     "DocumentPreparation": {
-      "label": "書類準備"
+      "label": "書類準備",
+      "line1": "日本に帰ったら、婚姻手続きに必要な書類を取り、現地に発送して頂きます。それは婚姻要件具備証明書、戸籍謄本とパスポートコピーです。"
     },
     "JapanSide": "日本側",
     "VietnamSide": "ベトナム側",

@@ -102,6 +102,7 @@
       "OptionalExpense": "Other Expense",
       "GrandTotal": "Grand Total (Tax Included)",
       "Self-expense": "Self Expense",
+      "DueDate": "Due Date",
       "Membership": {
         "label": "Membership"
       },
@@ -183,27 +184,62 @@
         "dueDate": {
           "line1": "Self-bought"
         }
+      },
+      "WeddingCeremonySupport": {
+        "label": "Wedding Ceremoney Support",
+        "content": {
+          "line1": "Five – fruit tray",
+          "line2": "Wedding album",
+          "line3": "Bride make-up"
+        },
+        "outOfService": {
+          "line1": "Other wedding ceremoney expense"
+        },
+        "dueDate": {
+          "line1": "Wedding Tour"
+        }
+      },
+      "SecondTourOrAfter": {
+        "label": "Second Tour of After",
+        "content": {
+          "line1": "Two ways air ticket",
+          "line2": "Domestic transportation fee",
+          "line3": "Expense in Vietnam",
+          "line4": "Interpreter charge"
+        },
+        "outOfService": {
+          "line1": "Wedding present",
+          "line2": "Wedding ceremony support",
+          "line3": "Betrothal money"
+        }
       }
     },
     "Interview": {
-      "label": "Interview Tour"
+      "label": "Interview Tour",
+      "line1": "Normal interview tour will last for 3 days and the customer will meet at most 10 people. Customer will also visit his bride's home and have nerve inspection for marriage procedure."
     },
     "WeddingTour": {
-      "label": "Wedding Tour"
+      "label": "Wedding Tour",
+      "line1": "After the issue of marriage registration certificate is completed, customer will go to Vietnam to take it. During this tour, he will also have wedding ceremony."
     },
     "CompanyInfo": "Company Information",
     "InterviewApply": {
-      "label": "Apply for Interview"
+      "label": "Apply for Interview",
+      "line1": "Please lick <a href=\"__intApply__\">Apply for Interview</a> or send <a href=\"mailto:__mailAddr__\">email</a> to us to apply for an interview"
     },
     "ConfirmAvailability": {
-      "label": "Confirm Availability"
+      "label": "Confirm Availability",
+      "line1": "We will contact the favorite members, check their availability and report the list of members to be interviewed."
     },
     "MarriageRegistration": {
-      "label": "Marriage Registration"
+      "label": "Marriage Registration",
+      "line1": "After receiving documents from Japan, we will have our judicial scrivener will translate, legalize and submit marriage registration documents."
     },
     "StartSchool": {
       "label": "Start School",
-      "ContinueSchool": "Continue School"
+      "line1": "After the engagement, the bride will enroll the bridal school, which is run by us. She will stay with other brides, studying Japanese language and culture every days.",
+      "ContinueSchool": "Continue School",
+      "CSline1": "After wedding ceremony, customer's wife will continue our school. At this moment, she can do simple greeting and simple conversation in Japanese"
     },
     "ResidenceStatus": {
       "label": "Apply for COE",
@@ -215,7 +251,8 @@
       "GoToJapan": "Go to Japan"
     },
     "DocumentPreparation": {
-      "label": "Document Preparation"
+      "label": "Document Preparation",
+      "line1": "After returning to Japan, customer will have to prepare some document to send to Vietnam for marriage registration there. Documents include, certificate of legal capacity to contract marriage, copy of family register and copy of passport."
     },
     "JapanSide": "Japan",
     "VietnamSide": "Vietnam",

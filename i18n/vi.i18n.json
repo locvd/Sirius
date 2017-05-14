@@ -102,6 +102,7 @@
       "OptionalExpense": "Các Lệ Phí Khác",
       "GrandTotal": "Tổng (Gồm thuế)",
       "Self-expense": "Tự chi",
+      "DueDate": "Hạn trả",
       "Membership": {
         "label": "Phí gia nhập"
       },
@@ -183,27 +184,62 @@
         "dueDate": {
           "line1": "Tự mua"
         }
+      },
+      "WeddingCeremonySupport": {
+        "label": "Hỗ trợ lễ cưới",
+        "content": {
+          "line1": "Mâm ngũ quả",
+          "line2": "Album ảnh cưới",
+          "line3": "Trang điểm cô dâu"
+        },
+        "outOfService": {
+          "line1": "Các chi phí lễ cưới khác"
+        },
+        "dueDate": {
+          "line1": "Về cưới"
+        }
+      },
+      "SecondTourOrAfter": {
+        "label": "Lần về thứ 2 trở đi",
+        "content": {
+          "line1": "Vé máy bay khứ hồi",
+          "line2": "Phí giao thông trong nước Nhật",
+          "line3": "Sinh hoạt phí tại Việt Nam",
+          "line4": "Chi phi phiên dịch"
+        },
+        "outOfService": {
+          "line1": "Quà cưới",
+          "line2": "Phí hỗ trợ lễ cưới",
+          "line3": "Nạp tài"
+        }
       }
     },
     "Interview": {
-      "label": "về Gặp Mặt"
+      "label": "về Gặp Mặt",
+      "line1": "Khách hàng sẽ về ở tại Việt Nam 3 ngày 2 đêm và sẽ gặp tối đa 10 người. Khách hàng sẽ thăm nhà cô dâu sau khi chọn được, và sẽ khám thần kinh ngay lần về gặp mặt."
     },
     "WeddingTour": {
-      "label": "Về Cưới"
+      "label": "Về Cưới",
+      "line1": "Sau khi có giấy chứng nhận kết hôn, khách hàng sẽ về Việt Nam tổ chức lễ cưới. Trong lần về này, khách hàng cũng sẽ ký vào sổ đăng ký kết hôn và lấy giấy chứng nhận kết hôn mang về Nhật."
     },
     "CompanyInfo": "Thông tin công ty",
     "InterviewApply": {
-      "label": "Đăng ký gặp mặt"
+      "label": "Đăng ký gặp mặt",
+      "line1": "Xin vui lòng bấm <a href=\"__intApply__\">Đăng ký gặp mặt</a> hoặc gửi <a href=\"mailto:__mailAddr__\">email</a> cho chúng tôi để đăng ký gặp mặt"
     },
     "ConfirmAvailability": {
-      "label": "Xác nhận nữ"
+      "label": "Xác nhận nữ",
+      "line1": "Chúng tôi sẽ liên lạc với các hội viên khách hàng muốn gặp, xác nhận và thông báo danh sách gặp mặt cho khách hàng"
     },
     "MarriageRegistration": {
-      "label": "Đăng ký kết hôn"
+      "label": "Đăng ký kết hôn",
+      "line1": "Sau khi nhận đầy đủ giấy tờ từ Nhật, người làm thủ tục hồ sơ của chúng tôi sẽ chịu trách nhiệm dịch, hợp thức hóa và tiến hành thủ tục đăng ký kết hôn."
     },
     "StartSchool": {
       "label": "Nhập học",
-      "ContinueSchool": "Tiếp tục học"
+      "line1": "Sau khi đính hôn, cô dâu sẽ được học trong trường học của công ty. Cô dâu sẽ ở cũng các cô khác trong trường, được học tiếng Nhật và văn hóa Nhật hàng ngày.",
+      "ContinueSchool": "Tiếp tục học",
+      "CSLine1": "Sau lế cưới, cô dâu sẽ tiếp tục học trong trường. Tại thời điểm này, cô dâu đã có thể nói những câu chào và đoạn hội thoại đơn giản trong tiếng Nhật."
     },
     "ResidenceStatus": {
       "label": "Xin tư cách lưu trú",
@@ -215,7 +251,8 @@
       "GoToJapan": "Sang Nhật"
     },
     "DocumentPreparation": {
-      "label": "Chuẩn bị giấy tờ"
+      "label": "Chuẩn bị giấy tờ",
+      "line1": "Về Nhật, khách hàng sẽ phải chuẩn bị các giấy tờ để gửi về Việt Nam để làm thủ tục kết hôn. Các giấy tờ bao gồm, giấy chứng nhận đủ điều kiện kết hôn, sổ hộ khẩu và hộ chiếu."
     },
     "JapanSide": "Phía Nhật",
     "VietnamSide": "Phía Việt",
