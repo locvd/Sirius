@@ -239,16 +239,22 @@
       "label": "Start School",
       "line1": "After the engagement, the bride will enroll the bridal school, which is run by us. She will stay with other brides, studying Japanese language and culture every days.",
       "ContinueSchool": "Continue School",
-      "CSLine1": "After wedding ceremony, customer's wife will continue our school. At this moment, she can do simple greeting and simple conversation in Japanese"
+      "CSLine1": "After wedding ceremony, customer's wife will continue our school. At this moment, she can do simple greeting and simple conversation in Japanese",
+      "CSLine2": "While waiting for the issue of COE, in Vietnam, the bride will continue school. Because this period is long and there is no any task in Vietnam, the bride can focus on study."
     },
     "ResidenceStatus": {
       "label": "Apply for COE",
+      "ApplyForCOEContent": "In this step, customer will complete the marriage registration at his local city office and submit necessary documents to Immigration Bureau to apply for Certificate of Eligibility (CEO). It takes about 3 months until the COE is issued.",
       "GotCOE": "Got COE",
-      "VisaApplication": "Visa Application"
+      "GotCOEContent": "Finally we've got the COE. Customer has to send this COE to Vietname for further visa application.",
+      "VisaApplication": "Visa Application",
+      "VisaApplicationContent": "After receiving COE, the bride has to collect other necessary documents, submit to Japanese consultation to complete Visa application procedure. It take 1 week from application day to get Visa."
     },
     "PickUp": {
       "label": "Pick-up Tour",
-      "GoToJapan": "Go to Japan"
+      "GoToJapan": "Go to Japan",
+      "PickUpContent": "Although not mandatory, we recommend customer to pick up his wife from Vietnam. Customer will have to buy 2 way ticket for him and 1 way ticket from Vietnam for his wife.",
+      "GoToJapanContent": "Finally this day has come. Congratulation for new life."
     },
     "DocumentPreparation": {
       "label": "Document Preparation",

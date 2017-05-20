@@ -239,16 +239,22 @@
       "label": "Nhập học",
       "line1": "Sau khi đính hôn, cô dâu sẽ được học trong trường học của công ty. Cô dâu sẽ ở cũng các cô khác trong trường, được học tiếng Nhật và văn hóa Nhật hàng ngày.",
       "ContinueSchool": "Tiếp tục học",
-      "CSLine1": "Sau lế cưới, cô dâu sẽ tiếp tục học trong trường. Tại thời điểm này, cô dâu đã có thể nói những câu chào và đoạn hội thoại đơn giản trong tiếng Nhật."
+      "CSLine1": "Sau lế cưới, cô dâu sẽ tiếp tục học trong trường. Tại thời điểm này, cô dâu đã có thể nói những câu chào và đoạn hội thoại đơn giản trong tiếng Nhật.",
+      "CSLine2": "Trong thời gian chờ đợi kết quả tư cách lưu trú, cô dâu sẽ tiếp tục học tại trường. Vì thời gian này dài và không có nghiệp vụ gì phát sinh bên phía Việt Nam nên các cô dâu có thể tập trung vào việc học của mình."
     },
     "ResidenceStatus": {
       "label": "Xin tư cách lưu trú",
+      "ApplyForCOEContent": "Trong bước này, khách hàng phải hoàn thành thủ tục đăng ký kết hôn phía Nhật rồi nộp các giấy tờ cần thiết lên cục xuất nhập cảnh để xin cấp giấy chứng nhận tư cách lưu trú. Quá trinh xét duyệt của cục xuất nhập cảnh hết khoảng 3 tháng.",
       "GotCOE": "Có cư cách lưu trú",
-      "VisaApplication": "Xin Visa"
+      "GotCOEContent": "Cuối cùng thì ta cũng đã có tư cách lưu trú. Khách hàng phải gửi giấy chứng nhận tư cách lưu trú này về Việt Nam để cô dâu có thể tiến hành thù tục xin cấp Visa.",
+      "VisaApplication": "Xin Visa",
+      "VisaApplicationContent": "Sau khi nhận được giấy chứng nhận tư cách lưu trú, cô dâu phải nộp các giấy tờ cần thiết lên Lãnh sự quán Nhật Bản để tiến hành thủ tục xin cấp Visa. Sau khi đăng ký 1 tuần thì Visa sẽ được cấp."
     },
     "PickUp": {
       "label": "Về đón vợ",
-      "GoToJapan": "Sang Nhật"
+      "GoToJapan": "Sang Nhật",
+      "PickUpContent": "Mặc dù không bắt buộc, chúng tôi khuyên khách hàng nên đi Việt Nam đón vợ. Khách hàng sẽ phải chuẩn bị vé máy bay khứ cho mình và 1 chiều từ Việt Nam cho vợ.",
+      "GoToJapanContent": "Cuối cùng ngày sang Nhật cũng đã đến. Xin chúc mừng tân lang tân nương."
     },
     "DocumentPreparation": {
       "label": "Chuẩn bị giấy tờ",
