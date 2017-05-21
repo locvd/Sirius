@@ -47,11 +47,20 @@ FlowRouter.route('/about-school', {
   }
 });
 
-FlowRouter.route('/interview', {
+FlowRouter.route('/system-interview', {
   name: 'App.System.Interview',
   action() {
     BlazeLayout.render('MainLayout', {
       main: 'InterviewTour'
+    })
+  }
+});
+
+FlowRouter.route('/system-weddingtour', {
+  name: 'App.System.WeddingTour',
+  action() {
+    BlazeLayout.render('MainLayout', {
+      main: 'WeddingTour'
     })
   }
 });

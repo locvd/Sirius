@@ -215,12 +215,12 @@
       }
     },
     "Interview": {
-      "label": "về Gặp Mặt",
+      "label": "Về Gặp Mặt",
       "line1": "Khách hàng sẽ về ở tại Việt Nam 3 ngày 2 đêm và sẽ gặp tối đa 10 người. Khách hàng sẽ thăm nhà cô dâu sau khi chọn được, và sẽ khám thần kinh ngay lần về gặp mặt.",
       "page": {
         "title": "お見合い渡航",
         "apply": {
-          "title": "お見合い申し込み",
+          "title": "次のような資格を満たす男性でお見合い希望の方はメールにてお見合い申し込みをしてください。",
           "eligibility": {
             "title": "申し込み資格",
             "e1": "健康で結婚生活に支障がなく、良識ある社会人として のエ チケットを守れる方",
