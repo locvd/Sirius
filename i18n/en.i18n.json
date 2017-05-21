@@ -216,11 +216,80 @@
     },
     "Interview": {
       "label": "Interview Tour",
-      "line1": "Normal interview tour will last for 3 days and the customer will meet at most 10 people. Customer will also visit his bride's home and have nerve inspection for marriage procedure."
+      "line1": "Normal interview tour will last for 3 days and the customer will meet at most 10 people. Customer will also visit his bride's home and have nerve inspection for marriage procedure.",
+      "page": {
+        "title": "お見合い渡航",
+        "apply": {
+          "title": "お見合い申し込み",
+          "eligibility": {
+            "title": "申し込み資格",
+            "e1": "健康で結婚生活に支障がなく、良識ある社会人として のエ チケットを守れる方",
+            "e2": "戸籍上、又実生活においても独身である方・22歳以 上の方",
+            "e3": "住所が明らかで、定職を持っている方",
+            "e4": "暴言・暴力・ギャン ブル癖がなく落ち着いて話せる方、外国人に対し偏見のない方"
+          },
+          "content1": "お見合い申し込みにあたり、<a href=\"__memberList__\">会員一覧</a>より、気になる女性を数名お選び頂き申し込みフォームにご記入いただき送信してください。もしくは当社担当者に電話にてお見合い申し込みの旨をお伝えください。来社訪問の方はメールにて来社の日程を改めて調整頂きます。",
+          "content2": "選ばれたベトナム女性に会員登録された情報に基づき簡単な男性会員プロフィールを作成し、お相手女性にお見合い確認の意志を頂きます。打診の結果は通常申込日より翌日わかりますが女性側の連絡先が変わった等により一週間かかる場合もございます。お見合い申し込みで個別の質問も受付します。",
+          "content3": "お見合い是非の返事を会員様のご連絡いたします、その後当社と打ち合わせを行い渡航日程を決めて頂きます。当社より、お見合い渡航の持ち物と予定を送ります、また会員様の自宅、周辺の風景、買い物をするお店、地元の観光地などの写真を数枚ご用意ください、お見合い時にお相手女性に見せます。"
+        },
+        "tour": {
+          "title": "渡航",
+          "content1": "お見合い渡航は基本的には２泊３日です。指定された国内の空港にてスタッフと合流後、ベトナムに向かいます。ホーチミン市国際空港到着後高速バス等でカントーに移動します。カントーのホテルをチェックインして休憩を取った後、お見合いを開始します。",
+          "content2": "典型的なスケジュールは下記のとおりです。",
+          "schedule": {
+            "title": "スケジュール",
+            "day1": "一日目",
+            "day1content": "現地到着・移動・お見合い",
+            "day2": "二日目",
+            "day2content": "婚約者の実家訪問・面談・次回渡航の日程調整",
+            "day3": "三日目",
+            "day3content": "神経検査・日本領事館にて婚姻要件具備証明書申請"
+          },
+          "content3": "結婚が決まったら今後奥さんとよりスムーズに連絡をとれるように今後の連絡手段と花嫁学校の入学日を現地のスタッフと話し合いで決めてください。"
+        }
+      }
     },
     "WeddingTour": {
       "label": "Wedding Tour",
-      "line1": "After the issue of marriage registration certificate is completed, customer will go to Vietnam to take it. During this tour, he will also have wedding ceremony."
+      "line1": "After the issue of marriage registration certificate is completed, customer will go to Vietnam to take it. During this tour, he will also have wedding ceremony.",
+      "page": {
+        "title": "結婚渡航",
+        "content1": "結婚渡航は実費で滞在日数は人それぞれですが最低でも２泊３日必要です。航空券はお客さん自身手配するか当社に依頼してもいいです。現地での活動の見本は下記のとおりです。",
+        "schedule": {
+          "title": "スケジュール",
+          "day1": "１日目",
+          "day1content": "現地到着・移動・奥さんと再会・３点セット購入",
+          "day2": "２日目",
+          "day2content": "記念写真撮影・結婚式",
+          "day3": "３日目",
+          "day3content": "女性家族と会談・結婚証明書受け取り",
+          "day4": "４日目以降",
+          "day4content": "新婚旅行・プライベート等（弊社スタッフ立ち合いなし）"
+        },
+        "note": {
+          "title": "注意事項",
+          "note1": "三点セット購入金額は弊社ホームページに載っているのは参考だけで、実際は夫婦同氏で合意頂きます。弊社のスタッフ或は通訳者がお店を紹介します。ただし、三点セット購入を日本で済ませたのであればこのステップが省略できます。",
+          "note2": "結納金は通常結婚式の日に女性の両親に渡すのですが結婚式の準備等のために、事前に送金の要求が来ることがありますのでご了承ください。",
+          "note3": "結婚渡航で結婚証明書受け取るという重要なステップがありますので渡航の３週間前に必要な書類を事前にベトナムに郵送する必要があります。また、結婚証明書を含めた結婚渡航から<a href=\"__procedurePage__\">持って帰る書類</a>をよく確認の上と渡航してください",
+          "note4": "ホテルの手配は基本的にお客さんにネットを通じて手配して頂きますが弊社に依頼する場合は渡航の前に、その旨をお伝えください。",
+          "note5": "結婚渡航は日程がタイトなため十分健康を改めて準備してください。現地で風邪をひいたり、病気になったりすると全体のスケージュールが崩れてしまうのでご注意ください。"
+        },
+        "documentsSent": {
+          "title": "渡航する３週間前までに郵送する書類",
+          "doc1": "戸籍謄本",
+          "doc2": "婚姻要件具備証明書",
+          "doc3": "パスポートコピー",
+          "doc4": "離婚届受理証明書"
+        },
+        "documentBringBack": {
+          "title": "日本に持って帰る書類",
+          "doc1": "結婚証明書（原本及び公印のあるコピー）　各1部",
+          "doc2": "奥さんの証明写真（3㎝×4㎝）　数枚",
+          "doc3": "奥さんの両親・兄弟の氏名・生年月日・現住所（戸籍住所ではなく）・電話番号",
+          "doc4": "奥さんのパスポートコピー（写真のあるページ1枚）",
+          "doc5": "奥さんの出生証明書（公印のあるコピー）1部"
+        }
+      }
     },
     "CompanyInfo": "Company Information",
     "InterviewApply": {

@@ -1,5 +1,67 @@
 <template name="InterviewTour">
-    <section id="interview-tour">
-
-    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <h1 class="breadcrumbs-title">{{_ "System.Interview.label"}}</h1>
+                <ol class="breadcrumbs">
+                    <li><a href="/"><i class="material-icons left">home</i>{{_ "Home"}}</a></li>
+                    <li class="active">{{_ "System.Interview.label"}}</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <div class="container">
+        <h3 class="header">
+            {{_ "System.Interview.label"}}
+        </h3>
+        <p>{{_ "System.Interview.line1"}}</p>
+        <div class="divider"></div>
+        <div class="row">
+            <h3>{{_ "System.Interview.page.apply.title"}}</h3>
+            <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+                    <span class="card-title">{{_ "System.Interview.page.apply.eligibility.title"}}</span>
+                    <p>{{_ "System.Interview.page.apply.eligibility.e1"}}</p>
+                    <p>{{_ "System.Interview.page.apply.eligibility.e2"}}</p>
+                    <p>{{_ "System.Interview.page.apply.eligibility.e3"}}</p>
+                    <p>{{_ "System.Interview.page.apply.eligibility.e4"}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="row">
+            <h3>{{_ "System.Interview.page.tour.title"}}</h3>
+            <p>{{_ "System.Interview.page.tour.content1"}}</p>
+            <p>{{_ "System.Interview.page.tour.content2"}}</p>
+            <div class="card blue-grey darken-1">
+                <div class="card-content white-text">
+                    <span class="card-title">{{_ "System.Interview.page.tour.title"}}</span>
+                    <div class="col s12 m12 l12">
+                        <table class="striped">
+                            <tbody>
+                            <tr>
+                                <td>{{_ "System.Interview.page.tour.day1"}}</td>
+                                <td>{{_ "System.Interview.page.tour.day1content"}}</td>
+                            </tr>
+                            <tr>
+                                <td>{{_ "System.Interview.page.tour.day2"}}</td>
+                                <td>{{_ "System.Interview.page.tour.day2content"}}</td>
+                            </tr>
+                            <tr>
+                                <td>{{_ "System.Interview.page.tour.day3"}}</td>
+                                <td>{{_ "System.Interview.page.tour.day3content"}}</td>
+                            </tr>
+                            <tr>
+                                <td>{{_ "System.Interview.page.tour.day4"}}</td>
+                                <td>{{_ "System.Interview.page.tour.day4content"}}</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <p>{{_ "System.Interview.page.content3"}}</p>
+        </div>
+    </div>
 </template>

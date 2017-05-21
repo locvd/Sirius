@@ -47,6 +47,15 @@ FlowRouter.route('/about-school', {
   }
 });
 
+FlowRouter.route('/interview', {
+  name: 'App.System.Interview',
+  action() {
+    BlazeLayout.render('MainLayout', {
+      main: 'InterviewTour'
+    })
+  }
+});
+
 FlowRouter.route('/memberlist', {
   name: 'App.MemberList',
   action() {
